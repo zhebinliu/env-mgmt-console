@@ -33,11 +33,17 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: 'Install Dependency'
+        run: |
+            npm install 
+      - name: 'build for test environment'
+        run: |
+            export NODE_OPTIONS=--openssl-legacy-provider
+            npm run build:stage
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
-          path: '.'
+          path: 'dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
