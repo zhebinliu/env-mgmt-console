@@ -38,9 +38,9 @@ jobs:
             npm install 
       - name: 'build for test environment'
         run: |
-            
+
             export NODE_OPTIONS=--openssl-legacy-provider
-            npm run build:stage
+            npm run build:prod
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
