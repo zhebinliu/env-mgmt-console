@@ -56,20 +56,20 @@ export const constantRoutes = [
   },
 
   {
-    path: '/example',
+    path: '/package-managment',
     component: Layout,
-    redirect: '/example/table',
+    redirect: '/package-managment/package-list',
     name: 'Package Management',
     meta: { title: 'Package Management', icon: 'el-icon-s-help' },
     children: [
       {
-        path: 'table',
+        path: 'package-list',
         name: 'Package List',
         component: () => import('@/views/table/index'),
         meta: { title: 'Package List', icon: 'table' }
       },
       {
-        path: 'tree',
+        path: 'release-definitions',
         name: 'Release Definitions',
         component: () => import('@/views/tree/index'),
         meta: { title: 'Release Definitions', icon: 'tree' }
