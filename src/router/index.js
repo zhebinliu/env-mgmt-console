@@ -6,6 +6,7 @@ Vue.use(Router)
 /* Layout */
 import Layout from '@/layout'
 import orgRouter from './modules/org'
+import project from '@/data/project.json'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
@@ -95,7 +96,7 @@ export const constantRoutes = [
     component: Layout,
     children: [
       {
-        path: 'https://github.com/zhebinliu/env-mgmt-console',
+        path: project.url,
         meta: { title: 'Repo', icon: 'link' }
       }
     ]
