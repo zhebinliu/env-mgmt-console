@@ -10709,6 +10709,149 @@
             ],
             "hashId": "b7857588ed85e0d6df03db4d454cdfe276801c56",
             "date": "Thu Sep 07 2023 02:46:19 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-07-09-6108239244"
+            ],
+            "buildNumber": 199,
+            "workItems": {
+                "ODD-1887": [
+                    "352e0340"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "cl-rendered-fields",
+                    "from": "b8b96a9b",
+                    "to": "352e0340",
+                    "version": "2.0.0.6108239244",
+                    "latestCommitId": "352e0340",
+                    "commits": [
+                        {
+                            "commitId": "352e0340",
+                            "date": "2023-09-07T15:28:07+05:30",
+                            "author": "Atanu Das",
+                            "message": "Fix/ODD-1887: Credit Enquiry Commentary field render criteria updated (#600)",
+                            "body": "Fix/ODD-1887: Credit Enquiry Commentary field render critera updated"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "a0ed2193338df9cbc92888276ac95290be731e04",
+            "date": "Thu Sep 07 2023 10:07:27 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-08-09-6118546172"
+            ],
+            "buildNumber": 200,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "orde-unpackaged",
+                    "from": "06f86351",
+                    "to": "f1c3a821",
+                    "version": "1.2.0.6118546172",
+                    "latestCommitId": "f1c3a821",
+                    "commits": [
+                        {
+                            "commitId": "f1c3a821",
+                            "date": "2023-09-08T12:06:39+05:30",
+                            "author": "Sayak Mukhopadhyay",
+                            "message": "refactor(CategoryAttachmentUtilityTest): :recycle: refacorization of … (#604)",
+                            "body": "* refactor(CategoryAttachmentUtilityTest): :recycle: refacorization of CategoryAttachmentUtilityTest\r\n\r\n* modify description"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "bd68edd66a8afc058b4b89f0bc7de3ee00b2d91a",
+            "date": "Fri Sep 08 2023 06:55:55 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-11-09-6147295175"
+            ],
+            "buildNumber": 201,
+            "workItems": {
+                "ODD-1978": [
+                    "b78fca6d"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orde-unpackaged",
+                    "from": "f1c3a821",
+                    "to": "b78fca6d",
+                    "version": "1.2.0.6147295175",
+                    "latestCommitId": "b78fca6d",
+                    "commits": [
+                        {
+                            "commitId": "b78fca6d",
+                            "date": "2023-09-11T19:16:33+05:30",
+                            "author": "Atanu Das",
+                            "message": "Fix/ODD-1978: LoanCollateralUpdateBatch class and LoanCollateralUpdateBatchTest updated in this PR (#602)",
+                            "body": "Co-authored-by: Rameswari Barman <rameswari.barman@cloudkaptan.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "99e513af302362fe8ed0b992a060a32d3391357c",
+            "date": "Mon Sep 11 2023 14:10:45 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-11-09-6147659240"
+            ],
+            "buildNumber": 202,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "orde-unpackaged",
+                    "from": "b78fca6d",
+                    "to": "929f551d",
+                    "version": "1.2.0.6147659240",
+                    "latestCommitId": "929f551d",
+                    "commits": [
+                        {
+                            "commitId": "929f551d",
+                            "date": "2023-09-11T19:46:49+05:30",
+                            "author": "Sayak Mukhopadhyay",
+                            "message": "fix(UpdateBorrowerACHTest): :recycle: refactoring of UpdateBorrowerAC… (#603)",
+                            "body": "* fix(UpdateBorrowerACHTest): :recycle: refactoring of UpdateBorrowerACHTest\r\n\r\n* modify description of UpdateBorrowerACHTest\r\n\r\n---------\r\n\r\nCo-authored-by: Rameswari Barman <rameswari.barman@cloudkaptan.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "8cb7845a39430aa13d1374f04c9061fb82d20081",
+            "date": "Mon Sep 11 2023 14:37:13 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-11-09-6148181487"
+            ],
+            "buildNumber": 203,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "orde-unpackaged",
+                    "from": "929f551d",
+                    "to": "5c1bd9ab",
+                    "version": "1.2.0.6148181487",
+                    "latestCommitId": "5c1bd9ab",
+                    "commits": [
+                        {
+                            "commitId": "5c1bd9ab",
+                            "date": "2023-09-11T20:31:16+05:30",
+                            "author": "Syed Shabbar Shahzad",
+                            "message": "refactorization of BankAccountTriggerHelperTest (#605)",
+                            "body": "Co-authored-by: Rameswari Barman <rameswari.barman@cloudkaptan.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "334edf1ebc193867564eab261f74b75a3c494717",
+            "date": "Mon Sep 11 2023 15:20:53 GMT+0000 (Coordinated Universal Time)"
         }
     ]
 }

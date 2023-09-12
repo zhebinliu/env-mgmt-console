@@ -1,0 +1,27 @@
+release: Sprint-24.1-05-07-5459848126
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  cl-approval-authority: 1.0.0-5207747620
+  cl-collaterals: 1.0.0-5183386197
+  cl-collection-configuration: 1.0.0-5183386197
+  cl-dag: 1.0.0-5153703437
+  cl-departments: 1.0.0-5183386197
+  cl-integration-framework: 1.0.0-5183386197
+  cl-origination-configuration: 1.0.0-5279195940
+  cl-rendered-fields: 2.0.0-5440256532
+  cl-rules: 1.0.0-5264999794
+  cl-servicing-stage-1: 1.0.0-5183386197
+  cl-servicing-stage-2: 1.0.0-5183386197
+  clone-records: 1.0.0-5074581122
+  conga-doc-config: 1.0.0-5265784944
+  env-specific-post: 1.0.0-5080114480
+  orde-unpackaged: 1.1.0-5459848126
+  src-access-management: 1.0.0-5183386197
+  src-access-management-portal: 1.0.0-5183386197
+  src-ui: 1.0.0-5206884064
+changelog:
+  workItemFilters:
+    - ODD-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

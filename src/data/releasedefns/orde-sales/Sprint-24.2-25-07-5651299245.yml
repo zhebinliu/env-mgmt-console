@@ -1,0 +1,16 @@
+release: Sprint-24.2-25-07-5651299245
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  broker-survey-management: 1.0.0-2
+  core-objects-duplicate-management: 1.0.0-5606356937
+  customer-vulnerability-reporter: 1.0.2-1
+  orgshape: 1.0.2-5651299245
+  sales-channels: 1.4.0-2
+  sales-ui: 1.0.0-5651299245
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

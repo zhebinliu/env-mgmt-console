@@ -1,0 +1,38 @@
+release: Sprint-24.5-01-09-6046070977
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  application-assessment: 1.0.2-2
+  application-permissions: 1.0.5-1
+  cl-approval-authority: 1.0.0-5207747620
+  cl-collaterals: 1.0.0-5505259312
+  cl-collection-configuration: 1.0.0-5505259312
+  cl-dag: 1.0.0-5153703437
+  cl-departments: 1.0.0-5183386197
+  cl-integration-framework: 1.0.0-5505259312
+  cl-origination-configuration: 1.0.0-5695094246
+  cl-rendered-fields: 2.0.0-6046070977
+  cl-rules: 1.0.0-5264999794
+  cl-servicing-stage-1: 1.0.0-5183386197
+  cl-servicing-stage-2: 1.0.0-5183386197
+  conga-doc-config: 1.0.0-5817630663
+  core-objects-duplicate-management: 1.0.0-5606356937
+  credit-ui: 1.0.1-6006042054
+  distribution-permissions: 1.0.4-1
+  env-specific-post: 1.0.0-5080114480
+  finance-permissions: 1.0.7-2
+  orde-unpackaged: 1.1.5-6041271348
+  orgshape: 1.0.5-6044134258
+  shared-generic-utility-helper: 1.0.3-1
+  src-access-management: 1.0.0-6006042054
+  src-access-management-base: 1.0.0-6006042054
+  src-access-management-portal: 1.0.0-5688367625
+  src-broker-commission-approval-process: 1.0.0-6046070977
+  src-ui: 1.0.0-5206884064
+  utilities: 1.0.0-5791723682
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR|OSD)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

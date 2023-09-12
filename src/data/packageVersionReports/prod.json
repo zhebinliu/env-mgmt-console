@@ -1,0 +1,690 @@
+[
+  {
+    "name": "aba-file-generator",
+    "version": "1.0.0.5612869511",
+    "commitId": "7ea6f1f2310577090ccf8150e65495fa1928e946",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "application-assessment",
+    "version": "1.0.2.2",
+    "commitId": "548dbe337f23d7a1983adbc732648f03122bfa17",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000005xNIAQ",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "application-permissions",
+    "version": "1.0.5.1",
+    "commitId": "381aa96032b081e33f51eeaeb758b23efe04fe59",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000001IfIAI",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "applications-core",
+    "version": "1.0.0.1",
+    "commitId": "f3cb7c14faa6fa0a767f1071be0b2e0aa7bdf30c",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "batch-log-management",
+    "version": "1.0.4.13",
+    "commitId": "7e1d87e6acea05e855be1752572d624c0a221e5c",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000009GDIAY",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "breach-register",
+    "version": "1.0.0.5815688707",
+    "commitId": "2132b81fb3c6cb3c00c6c94181bf784a42bec4e9",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "broker-survey-management",
+    "version": "1.0.0.2",
+    "commitId": "5cec1b38316f1e293e7251f2178e1ad668932668",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TRoAAM",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "call-management",
+    "version": "1.0.3.1",
+    "commitId": "80763540b0fab7bb4bfec0f391d2f5ce24cb3c84",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TaRAAU",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "campaign-sms-management",
+    "version": "1.0.0.1",
+    "commitId": "3e1ff2345c08c59152d804f594c93ae19b6d67be",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000Td6AAE",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "cl-approval-authority",
+    "version": "1.0.0.5207747620",
+    "commitId": "4d69565abafe1e2dd9edd582b4df3bfe2173db02",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-collaterals",
+    "version": "1.0.0.5505259312",
+    "commitId": "d62e0a0a70ab8e18c8300216a6165d02cf96710a",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-collection-configuration",
+    "version": "1.0.0.5505259312",
+    "commitId": "d62e0a0a70ab8e18c8300216a6165d02cf96710a",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-dag",
+    "version": "1.0.0.5153703437",
+    "commitId": "a4d3992219f7ac8261924bd905a8cc8530b86c5f",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-departments",
+    "version": "1.0.0.5183386197",
+    "commitId": "2d3892244f2927dc172958e8ac647029f2e50017",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-integration-framework",
+    "version": "1.0.0.5505259312",
+    "commitId": "d62e0a0a70ab8e18c8300216a6165d02cf96710a",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-origination-configuration",
+    "version": "1.0.0.5695094246",
+    "commitId": "b8eb8ece4b0f7eee09c97ce42746bd1e08418ba3",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-rate-cards",
+    "version": "1.0.0.1",
+    "commitId": "c59abfbd34332feaa6cd979f4e5ea3de4afe6017",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-rate-cards-product-association",
+    "version": "1.0.0.1",
+    "commitId": "c59abfbd34332feaa6cd979f4e5ea3de4afe6017",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-rendered-fields",
+    "version": "2.0.0.6048595612",
+    "commitId": "768eaf73ffea02bd3cbeed9cb55afeb8c3135afc",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-rules",
+    "version": "1.0.0.5264999794",
+    "commitId": "95c530c600ef093110152594cca66222ea330b0c",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-servicing-stage-1",
+    "version": "1.0.0.5183386197",
+    "commitId": "2d3892244f2927dc172958e8ac647029f2e50017",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "cl-servicing-stage-2",
+    "version": "1.0.0.5183386197",
+    "commitId": "2d3892244f2927dc172958e8ac647029f2e50017",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "clone-records",
+    "version": "1.0.0.5612869511",
+    "commitId": "7ea6f1f2310577090ccf8150e65495fa1928e946",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "common",
+    "version": "1.0.1.5588345528",
+    "commitId": "84b6ec8facd927fc65227f4b3069a12dff0aec32",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "conga-doc-config",
+    "version": "1.0.0.5817630663",
+    "commitId": "0572bab782b769dcd611aa20c7d7feb76702ea39",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "core-objects-duplicate-management",
+    "version": "1.0.0.5606356937",
+    "commitId": "fe4081e55e0b0516e752e4d3314173ef622717ff",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "credit-ui",
+    "version": "1.0.1.6006042054",
+    "commitId": "548dbe337f23d7a1983adbc732648f03122bfa17",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "customer-vulnerability-reporter",
+    "version": "1.0.3.1",
+    "commitId": "7b8b4f611bc24648d951404a650c115faa8aa256",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TWUAA2",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "distribution-permissions",
+    "version": "1.0.4.1",
+    "commitId": "8021eb233e9d6a61e09437543a5180c9bba7dbb9",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TYQAA2",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "env-specific-post",
+    "version": "1.0.0.5080114480",
+    "commitId": "fb4dd6e39101154ec2fcb1078fe81d3124b0f7b2",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "equifax-credit-report-search",
+    "version": "1.0.1.9",
+    "commitId": "7e1d87e6acea05e855be1752572d624c0a221e5c",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm000000096YIAQ",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "finance-permissions",
+    "version": "1.0.7.2",
+    "commitId": "7f56e7997abc9b9a14e3d0617d8a81995dce51f9",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000005sXIAQ",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "gift-register",
+    "version": "1.0.0.5612869511",
+    "commitId": "7ea6f1f2310577090ccf8150e65495fa1928e946",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "license-tracker",
+    "version": "1.0.0.6",
+    "commitId": "918c61d5992f05fbb65e4007ffe5c58af07bc776",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm0000000A4DIAU",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "loan-charges",
+    "version": "1.0.2.1",
+    "commitId": "5b3831f2848ccaba86388e8a7df17db2dcfaa3b5",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000000hZIAQ",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "loan-collateral-checker",
+    "version": "1.0.0.1",
+    "commitId": "7b8b4f611bc24648d951404a650c115faa8aa256",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TWZAA2",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "loan-servicing-ui",
+    "version": "1.0.0.5805402923",
+    "commitId": "e1225d92af82a3d50e865389379de3340e34cea8",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "orde-unpackaged",
+    "version": "1.1.5.6041271348",
+    "commitId": "9e79daa7adda4d527cf0e8feb6a1fb08c87aef89",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "orgshape",
+    "version": "1.0.5.6044134258",
+    "commitId": "f4c2de691eb6acabbf8915f7c0ec24682a148989",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "sales-channels",
+    "version": "1.11.0.17",
+    "commitId": "51c367db707f0c07bd5fb517230d7dfe8341bbbc",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000009o5IAA",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "sales-src-access-management",
+    "version": "1.0.1.5971180499",
+    "commitId": "8713b77e390fbedd5236d25c62f294b5d960d269",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "sales-ui",
+    "version": "1.6.0.6068642364",
+    "commitId": "8d54c2f9cd4d1cfc47ae30f9456e6e070d2721fb",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "sandbox-post-refresh-activities",
+    "version": "1.0.1.12",
+    "commitId": "cc6fbad07184368f75fecad4a8723c0ef83bea6f",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "settlement-workflow-automation",
+    "version": "1.0.1.1",
+    "commitId": "c8d305195589e4a0897524f06a6ea71d358f0030",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TcwAAE",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "shared-generic-utility-helper",
+    "version": "1.0.3.1",
+    "commitId": "421e72b7085af3ddcb79bf46fcf909b3999b3b68",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04tOm00000006lNIAQ",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "src-access-management",
+    "version": "1.0.0.6006042054",
+    "commitId": "548dbe337f23d7a1983adbc732648f03122bfa17",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "src-access-management-base",
+    "version": "1.0.0.6006042054",
+    "commitId": "548dbe337f23d7a1983adbc732648f03122bfa17",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "src-access-mangement",
+    "version": "1.0.0.1",
+    "commitId": "d2cfc7ac2329b930b9cce90a4fd8a8f085cec3a9",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "src-broker-commission-approval-process",
+    "version": "1.0.0.6046070977",
+    "commitId": "711affdd1d6907c2562464eec000a918d2d56dfe",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "src-ui",
+    "version": "1.0.0.5206884064",
+    "commitId": "6ebb07cab29a3de3650f2145a1e23584d3fe7d5c",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "statement-notification-automation",
+    "version": "1.0.2.1",
+    "commitId": "09020514a1773c16f42d8545e31e1a4b32498b0e",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "04t8w0000000TcmAAE",
+    "type": "OrgDependendent"
+  },
+  {
+    "name": "training-register",
+    "version": "1.0.0.5612869511",
+    "commitId": "7ea6f1f2310577090ccf8150e65495fa1928e946",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "utilities",
+    "version": "1.0.0.5791723682",
+    "commitId": "cfa92b0850c74713a2ddee9cc8de0426844a02f7",
+    "isInstalledBySfpowerscripts": true,
+    "subscriberVersion": "N/A",
+    "type": "Source/Data"
+  },
+  {
+    "name": "Getting Started Email Bundle",
+    "version": "1.0.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t090000006opOAAQ",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Twilio For Salesforce",
+    "version": "4.155.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t3m000000cWVeAAM",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "sfpowerscripts-artifact",
+    "version": "2.0.0.1",
+    "commitId": "N/A",
+    "type": "Unlocked",
+    "subscriberVersion": "04t1P000000ka9mQAA",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Common",
+    "version": "3.6005.24.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t2L000000VYCjQAO",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "SalesforceIQ Inbox",
+    "version": "2.0.0.2",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t1a000000AWcDAAW",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Salesforce Connected Apps",
+    "version": "1.7.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t30000001DUvrAAG",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Salesforce Mobile Apps",
+    "version": "1.20.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t3A000001DdcGQAS",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Staging",
+    "version": "3.6000.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t1R000001E4b3QAC",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Zoom",
+    "version": "3.30.0.5",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t1S000000Ea2VQAS",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Data Mask",
+    "version": "2.1000.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t3k0000023DoZAAU",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Pardot",
+    "version": "4.90.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t8Z000000y7lJQAQ",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Flow Actions for Pardot",
+    "version": "1.2.0.2",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t5G000003RUVNQA4",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Email Video Component",
+    "version": "1.2.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t5e000000miYYAAY",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Conga Composer",
+    "version": "8.234.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t5w000005ujKWAAY",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Originate Skuid Extension",
+    "version": "3.6004.8.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t4M0000004TlfQAE",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Integration Framework",
+    "version": "3.6004.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t6g000008SgUjAAK",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "DevOps Center",
+    "version": "5.7.0.5",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t6g000008b3LcAAI",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Conga Batch",
+    "version": "8.22.0.3",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t2E000001fDFTQA2",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Elixir Financial -- MyCommunity -- Sep 13 2021 -- Android for Android",
+    "version": "242.0.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t8W000003f8uzQAA",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Elixir Financial -- MyCommunity -- Sep 13 2021 -- iOS for iOS",
+    "version": "232.0.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t8W000003eztZQAQ",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "sandbox-post-refresh-activites",
+    "version": "1.0.1.12",
+    "commitId": "N/A",
+    "type": "OrgDependendent",
+    "subscriberVersion": "04tOm0000000A2bIAE",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Q2 Loan Servicing",
+    "version": "3.6019.215.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t0o000003FUtnAAG",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Integrations",
+    "version": "3.6000.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t3j000000hdEvAAI",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Notify",
+    "version": "3.6000.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t2I000000MhRAQA0",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Q2 Origination",
+    "version": "3.6004.19.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t3k000001YPFGAA4",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Skuid",
+    "version": "12.2.9.2",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t4A000000MnNAQA0",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Q2 Marketplace",
+    "version": "3.6001.4.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t4R000001lcY0QAI",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL FileGen",
+    "version": "3.6000.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t4w0000004449AAA",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "b2bmaIntegration",
+    "version": "1.7.0.2",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t5G000004F39PQAS",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Utilities",
+    "version": "3.6000.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t6S000000gpYvQAI",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "Conga Trigger",
+    "version": "8.25.0.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t6S000001QXvvQAG",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CL Collections",
+    "version": "3.5000.8.1",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t5b000001rNelAAE",
+    "isInstalledBySfpowerscripts": false
+  },
+  {
+    "name": "CTU: Clone This User",
+    "version": "3.3.0.3",
+    "commitId": "N/A",
+    "type": "Managed",
+    "subscriberVersion": "04t5c000000eW4WAAU",
+    "isInstalledBySfpowerscripts": false
+  }
+]

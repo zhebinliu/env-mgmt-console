@@ -1,0 +1,16 @@
+release: Sprint-24.3-15-08-5864433346
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  customer-vulnerability-reporter: 1.0.3-1
+  equifax-credit-report-search: 1.0.0-1
+  loan-collateral-checker: 1.0.0-1
+  loan-servicing-ui: 1.0.0-5805402923
+  settlement-workflow-automation: 1.0.1-1
+  statement-notification-automation: 1.0.2-1
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR|OSD)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

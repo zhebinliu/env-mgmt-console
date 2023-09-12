@@ -1,0 +1,15 @@
+release: Sprint-24.2-27-07-5679056159
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  broker-survey-management: 1.0.0-2
+  core-objects-duplicate-management: 1.0.0-5606356937
+  orgshape: 1.0.4-5676283183
+  sales-channels: 1.5.0-5
+  sales-ui: 1.0.1-5679056159
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR|OSD)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

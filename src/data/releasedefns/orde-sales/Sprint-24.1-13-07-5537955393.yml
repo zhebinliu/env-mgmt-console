@@ -1,0 +1,15 @@
+release: Sprint-24.1-13-07-5537955393
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  broker-survey-management: 1.0.0-1
+  common: 1.0.1-5537955393
+  customer-vulnerability-reporter: 1.0.2-1
+  sales-channels: 1.4.0-1
+  sales-ui: 1.0.0-5537955393
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

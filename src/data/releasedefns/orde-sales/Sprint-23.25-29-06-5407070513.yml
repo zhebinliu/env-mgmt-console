@@ -1,0 +1,13 @@
+release: Sprint-23.25-29-06-5407070513
+skipIfAlreadyInstalled: true
+artifacts:
+  common: 1.0.0-5387461857
+  customer-vulnerability-reporter: 1.0.2-1
+  sales-channels: 1.3.0-1
+  sales-ui: 1.0.0-5387461857
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

@@ -1,0 +1,17 @@
+release: Sprint-24.1-20-07-5612869511
+skipIfAlreadyInstalled: true
+skipArtifactUpdate: false
+artifacts:
+  aba-file-generator: 1.0.0-5612869511
+  batch-log-management: 1.0.0-5
+  breach-register: 1.0.0-5612869511
+  call-management: 1.0.2-1
+  clone-records: 1.0.0-5612869511
+  gift-register: 1.0.0-5612869511
+  training-register: 1.0.0-5612869511
+promotePackagesBeforeDeploymentToOrg: prod
+changelog:
+  workItemFilters:
+    - (ODD|OIBCR)-[0-9]{3,4}
+  workItemUrl: https://wingategroup.atlassian.net/browse
+  limit: 30

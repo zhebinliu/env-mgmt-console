@@ -1,7 +1,8 @@
 <template>
   <div class="app-container">
+    <el-button @click="featureToggle">{{ buttonStatus }}</el-button>
     <el-table
-      v-loading="listLoading"
+      v-show="showTable"
       :data="packages"
       element-loading-text="Loading"
       border
@@ -25,7 +26,7 @@
       </el-table-column>
       <el-table-column label="Dependency" align="center">
         <template slot-scope="scope">
-          {{ scope.row.dep }}
+          {{ scope.row.dependencies }}
         </template>
       </el-table-column>
       <el-table-column label="Domain" align="center">
@@ -38,24 +39,24 @@
           {{ scope.row.path }}
         </template>
       </el-table-column>
-      <!--<el-table-column class-name="status-col" label="Status" width="110" align="center">
+      <el-table-column label="Package Id" align="center">
         <template slot-scope="scope">
-          <el-tag :type="scope.row.status | statusFilter">{{ scope.row.status }}</el-tag>
+          {{ scope.row.versionId }}
         </template>
       </el-table-column>
-      <el-table-column align="center" prop="created_at" label="Display_time" width="200">
-        <template slot-scope="scope">
-          <i class="el-icon-time" />
-          <span>{{ scope.row.display_time }}</span>
-        </template>
-      </el-table-column>-->
     </el-table>
+    <div v-show="!showTable">
+      <div class="editor-container">
+        <json-editor ref="jsonEditor" v-model="jsonContent" />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { getList } from '@/api/table'
 import ProjectConfig from '@/data/sfdx-project.json'
+import JsonEditor from '@/components/JsonEditor'
+import * as fs from 'fs'
 
 export default {
   filters: {
@@ -68,28 +69,67 @@ export default {
       return statusMap[status]
     }
   },
+  components: { JsonEditor },
   data() {
     return {
       list: null,
-      packages: null,
-      listLoading: true
+      packages: [],
+      listLoading: false,
+      showTable: true,
+      jsonContent: ProjectConfig,
+      buttonStatus: 'JSON Editor'
     }
   },
   created() {
-    this.fetchData()
+    // this.fetchDomain()
     this.readFile()
+    this.jsonContent = ProjectConfig
   },
   methods: {
-    fetchData() {
-      this.listLoading = true
-      getList().then(response => {
-        this.list = response.data.items
-        this.listLoading = false
-      })
-    },
     readFile() {
-      console.log(ProjectConfig.packageDirectories)
-      this.packages = ProjectConfig.packageDirectories
+      // console.log(ProjectConfig.packageDirectories)
+      const packages = ProjectConfig.packageDirectories
+      for (var pkg of packages) {
+        var temp = {}
+        temp.package = pkg.package
+        temp.versionNumber = pkg.versionNumber
+        temp.path = pkg.path
+        if (pkg.dependencies) {
+          var dep = ''
+          for (var d of pkg.dependencies) {
+            dep += d.package + ';'
+          }
+          temp.dependencies = dep
+        } else {
+          temp.dependencies = 'None'
+        }
+        console.log(pkg.package)
+        console.log(ProjectConfig.packageAliases[pkg.package])
+        if (ProjectConfig.packageAliases[pkg.package]) {
+          temp.versionId = ProjectConfig.packageAliases[pkg.package]
+        } else if (pkg.type && pkg.type === 'data') {
+          temp.versionId = 'Data Pack'
+        } else {
+          temp.versionId = 'Source Package'
+        }
+        this.packages.push(temp)
+      }
+    },
+    featureToggle() {
+      this.showTable = !this.showTable
+      if (this.buttonStatus === 'Package List') {
+        this.buttonStatus = 'JSON Editor'
+      } else {
+        this.buttonStatus = 'Package List'
+      }
+    },
+    fetchDomain() {
+      const releaseConfigPath = '@/data/releaseconfigs'
+      // var domain = ''
+      fs.readdirsync(releaseConfigPath).foreach(file => {
+        console.log('file=>' + file)
+      })
+      return 'Checked'
     }
   }
 }
