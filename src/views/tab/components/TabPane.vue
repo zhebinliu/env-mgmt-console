@@ -18,7 +18,7 @@ import dashboard from '@/data/dashboard.json'
 export default {
   data() {
     return {
-      key: 'cicd_performance_dashboard_url',
+      key: null,
       source: null
     }
   },
