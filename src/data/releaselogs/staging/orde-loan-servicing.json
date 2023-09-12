@@ -1,0 +1,621 @@
+{
+    "orgs": [
+        {
+            "name": "staging",
+            "releases": [
+                {
+                    "names": [
+                        "Sprint-24.1-13-07-5538895195"
+                    ],
+                    "buildNumber": 1,
+                    "hashId": "ef97371fbcd2c69d3c81c819a3e76d9a44e58754"
+                },
+                {
+                    "names": [
+                        "Sprint-24.1-19-07-5598117611"
+                    ],
+                    "buildNumber": 2,
+                    "hashId": "54ab898e0fb62d9acede5b480a85b39d3087fdd0"
+                },
+                {
+                    "names": [
+                        "Sprint-24.2-21-07-5618560142"
+                    ],
+                    "buildNumber": 4,
+                    "hashId": "d6cdbaf9c647a10914a7ff3533b295ff95704a24"
+                },
+                {
+                    "names": [
+                        "Sprint-24.2-27-07-5676280933"
+                    ],
+                    "buildNumber": 5,
+                    "hashId": "310777f6b15090dfc8d5d70c59a54c64b6feb089"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-09-08-5805402923"
+                    ],
+                    "buildNumber": 6,
+                    "hashId": "fe50657612fbaa96a392ae4e82695d0814ea5162"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-14-08-5852132339"
+                    ],
+                    "buildNumber": 8,
+                    "hashId": "60f7c21ce4dbda0d4c854f0ef8693677a7cd817d"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-16-08-5873885220"
+                    ],
+                    "buildNumber": 10,
+                    "hashId": "2e639c8a61277d496897520cd2e8928e3ea81249"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-17-08-5888606691"
+                    ],
+                    "buildNumber": 12,
+                    "hashId": "ee5b2925fa02b08a6d60ce25d0b807a3f9c7efd0"
+                },
+                {
+                    "names": [
+                        "Sprint-24.5-30-08-6026352406"
+                    ],
+                    "buildNumber": 15,
+                    "hashId": "528e06100d12e143f32f522d620209510a454cb6"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Sprint-24.5-30-08-6026352406"
+                ],
+                "buildNumber": 15,
+                "hashId": "528e06100d12e143f32f522d620209510a454cb6"
+            },
+            "retryCount": 1
+        },
+        {
+            "name": "prod",
+            "releases": [
+                {
+                    "names": [
+                        "Sprint-24.1-13-07-5538895195"
+                    ],
+                    "buildNumber": 1,
+                    "hashId": "ef97371fbcd2c69d3c81c819a3e76d9a44e58754"
+                },
+                {
+                    "names": [
+                        "Sprint-24.1-19-07-5598117611"
+                    ],
+                    "buildNumber": 2,
+                    "hashId": "54ab898e0fb62d9acede5b480a85b39d3087fdd0"
+                },
+                {
+                    "names": [
+                        "Sprint-24.2-21-07-5618560142"
+                    ],
+                    "buildNumber": 4,
+                    "hashId": "d6cdbaf9c647a10914a7ff3533b295ff95704a24"
+                },
+                {
+                    "names": [
+                        "Sprint-24.2-27-07-5676280933"
+                    ],
+                    "buildNumber": 5,
+                    "hashId": "310777f6b15090dfc8d5d70c59a54c64b6feb089"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-14-08-5852132339"
+                    ],
+                    "buildNumber": 8,
+                    "hashId": "60f7c21ce4dbda0d4c854f0ef8693677a7cd817d"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-16-08-5873885220"
+                    ],
+                    "buildNumber": 10,
+                    "hashId": "2e639c8a61277d496897520cd2e8928e3ea81249"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-17-08-5888606691"
+                    ],
+                    "buildNumber": 12,
+                    "hashId": "ee5b2925fa02b08a6d60ce25d0b807a3f9c7efd0"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Sprint-24.3-17-08-5888606691"
+                ],
+                "buildNumber": 12,
+                "hashId": "ee5b2925fa02b08a6d60ce25d0b807a3f9c7efd0"
+            },
+            "retryCount": 0
+        },
+        {
+            "name": "ci",
+            "releases": [
+                {
+                    "names": [
+                        "Sprint-24.1-13-07-5538895195"
+                    ],
+                    "buildNumber": 1,
+                    "hashId": "ef97371fbcd2c69d3c81c819a3e76d9a44e58754"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Sprint-24.1-13-07-5538895195"
+                ],
+                "buildNumber": 1,
+                "hashId": "ef97371fbcd2c69d3c81c819a3e76d9a44e58754"
+            },
+            "retryCount": 2
+        }
+    ],
+    "releases": [
+        {
+            "names": [
+                "Sprint-24.1-13-07-5538895195"
+            ],
+            "buildNumber": 1,
+            "workItems": {
+                "OIBCR-2678": [
+                    "58c59a0d"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "statement-notification-automation",
+                    "to": "58c59a0d",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "58c59a0d",
+                    "commits": [
+                        {
+                            "commitId": "58c59a0d",
+                            "date": "2023-07-13T11:54:36+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OIBCR-2678 - Added activity logging for statement notifications (#210)",
+                            "body": "* Added activity logging for statement notifications\r\n\r\n* pmd fixes\r\n\r\n* created new domain loan-servicing\r\n\r\n* updated orde cl\r\n\r\n* added new pipeline\r\n\r\n* removed loan-servicing"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "ef97371fbcd2c69d3c81c819a3e76d9a44e58754",
+            "date": "Thu Jul 13 2023 04:09:21 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-19-07-5598117611"
+            ],
+            "buildNumber": 2,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "settlement-workflow-automation",
+                    "to": "8430497e",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "8430497e",
+                    "commits": [
+                        {
+                            "commitId": "8430497e",
+                            "date": "2023-07-19T16:12:19+05:30",
+                            "author": "Sayak Mukhopadhyay",
+                            "message": "Settlement-workflow-packaging (#247)",
+                            "body": "* feat(Settlement Workflow Automation): :sparkles: create a new package for settlement-workflow-automation\r\n\r\n* feat: :sparkles: settlemet-workflow-automation package exclude from orde-cl and include in loan-servicing"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "54ab898e0fb62d9acede5b480a85b39d3087fdd0",
+            "date": "Wed Jul 19 2023 10:51:26 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-20-07-5613640422"
+            ],
+            "buildNumber": 3,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "equifax-credit-report-search",
+                    "to": "348ee628",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "348ee628",
+                    "commits": [
+                        {
+                            "commitId": "348ee628",
+                            "date": "2023-07-20T22:08:51+05:30",
+                            "author": "Sayak Mukhopadhyay",
+                            "message": "equifax credit report packaging (#256)",
+                            "body": "* equifax credit report packaging\r\n\r\n* update last modified date and added description"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "70d02e12cd6f1a7b297aaa754dd8612cc4df9bdd",
+            "date": "Thu Jul 20 2023 17:01:03 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-21-07-5618560142"
+            ],
+            "buildNumber": 4,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "statement-notification-automation",
+                    "from": "58c59a0d",
+                    "to": "1b34c7fd",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "1b34c7fd",
+                    "commits": [
+                        {
+                            "commitId": "1b34c7fd",
+                            "date": "2023-07-21T14:17:18+10:00",
+                            "author": "buildbot",
+                            "message": "fix(statement notification):  add a readme and add main/default",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "d6cdbaf9c647a10914a7ff3533b295ff95704a24",
+            "date": "Fri Jul 21 2023 04:27:41 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-27-07-5676280933"
+            ],
+            "buildNumber": 5,
+            "workItems": {
+                "OIBCR-2997": [
+                    "7b8b4f61"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "to": "7b8b4f61",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "7b8b4f61",
+                    "commits": [
+                        {
+                            "commitId": "7b8b4f61",
+                            "date": "2023-07-27T11:42:20+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OIBCR-2997 - Added new packages to loan servicing (#300)",
+                            "body": "* Added new packages to loan servicing\r\n\r\n* fix json\r\n\r\n* moved customer-vulnerability-reporter\r\n\r\n* moved back to unpackaged\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                },
+                {
+                    "name": "loan-collateral-checker",
+                    "to": "7b8b4f61",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "7b8b4f61",
+                    "commits": [
+                        {
+                            "commitId": "7b8b4f61",
+                            "date": "2023-07-27T11:42:20+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OIBCR-2997 - Added new packages to loan servicing (#300)",
+                            "body": "* Added new packages to loan servicing\r\n\r\n* fix json\r\n\r\n* moved customer-vulnerability-reporter\r\n\r\n* moved back to unpackaged\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "310777f6b15090dfc8d5d70c59a54c64b6feb089",
+            "date": "Thu Jul 27 2023 03:58:58 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-09-08-5805402923"
+            ],
+            "buildNumber": 6,
+            "workItems": {
+                "OIBCR-3043": [
+                    "e1225d92"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "loan-servicing-ui",
+                    "to": "e1225d92",
+                    "version": "1.0.0.5805402923",
+                    "latestCommitId": "e1225d92",
+                    "commits": [
+                        {
+                            "commitId": "e1225d92",
+                            "date": "2023-08-09T13:53:52+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat-OIBCR-3043: updated client services email notifications (#386)",
+                            "body": "* updated statement notification\r\n\r\n* added send interest rate change changes\r\n\r\n* renamed the folder\r\n\r\n* added loan-servicing-ui\r\n\r\n* added loan-servicing-ui"
+                        }
+                    ]
+                },
+                {
+                    "name": "statement-notification-automation",
+                    "from": "1b34c7fd",
+                    "to": "e1225d92",
+                    "version": "1.0.1.2",
+                    "latestCommitId": "e1225d92",
+                    "commits": [
+                        {
+                            "commitId": "e1225d92",
+                            "date": "2023-08-09T13:53:52+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat-OIBCR-3043: updated client services email notifications (#386)",
+                            "body": "* updated statement notification\r\n\r\n* added send interest rate change changes\r\n\r\n* renamed the folder\r\n\r\n* added loan-servicing-ui\r\n\r\n* added loan-servicing-ui"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "fe50657612fbaa96a392ae4e82695d0814ea5162",
+            "date": "Wed Aug 09 2023 06:10:34 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-11-08-5834156957"
+            ],
+            "buildNumber": 7,
+            "workItems": {
+                "ODD-1857": [
+                    "008e0171"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "settlement-workflow-automation",
+                    "from": "8430497e",
+                    "to": "008e0171",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "008e0171",
+                    "commits": [
+                        {
+                            "commitId": "008e0171",
+                            "date": "2023-08-11T20:40:16+05:30",
+                            "author": "Sanjana",
+                            "message": "feat/ODD-1857: added reports to Settlement package for unassigned tasks (#425)",
+                            "body": "* feat/ODD-1857: added reports to Settlement package for unassigned tasks\r\n\r\n* moving components to unmanaged package because of dependency on Objects"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "8758d199e6b2f9e5134994b62375345197ceb470",
+            "date": "Fri Aug 11 2023 15:19:39 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-14-08-5852132339"
+            ],
+            "buildNumber": 8,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "statement-notification-automation",
+                    "from": "e1225d92",
+                    "to": "09020514",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "e1225d92",
+                    "commits": []
+                }
+            ],
+            "hashId": "60f7c21ce4dbda0d4c854f0ef8693677a7cd817d",
+            "date": "Mon Aug 14 2023 05:27:36 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-15-08-5864433346"
+            ],
+            "buildNumber": 9,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "settlement-workflow-automation",
+                    "from": "008e0171",
+                    "to": "c8d30519",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "008e0171",
+                    "commits": []
+                }
+            ],
+            "hashId": "f742204c5bfb65716c622384e21341ac946ea6f2",
+            "date": "Tue Aug 15 2023 06:58:59 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-16-08-5873885220"
+            ],
+            "buildNumber": 10,
+            "workItems": {
+                "ODD-1762": [
+                    "3e1ff234"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "campaign-sms-management",
+                    "to": "3e1ff234",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "3e1ff234",
+                    "commits": [
+                        {
+                            "commitId": "3e1ff234",
+                            "date": "2023-08-16T10:11:13+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-1762 Account Engagement Twilio SMS Message with Campaign (#429)",
+                            "body": "* added customer-assist\r\n\r\n* added customer-assist\r\n\r\n* moved to loan-servicing\r\n\r\n* updated xml from prod\r\n\r\n* reverted the changes\r\n\r\n---------\r\n\r\nCo-authored-by: Roy Ventura <130513567+rventura-orde@users.noreply.github.com>\r\nCo-authored-by: Azlam Abdulsalam <azlam.abdulsalam@furo.io>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "2e639c8a61277d496897520cd2e8928e3ea81249",
+            "date": "Wed Aug 16 2023 02:21:49 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-16-08-5873997693"
+            ],
+            "buildNumber": 11,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "campaign-sms-management",
+                    "from": "3e1ff234",
+                    "to": "60a14f80",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "3e1ff234",
+                    "commits": []
+                }
+            ],
+            "hashId": "29098e58b53aec309d5d5df6e5f4fc4f1e5fd1dc",
+            "date": "Wed Aug 16 2023 02:38:41 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-17-08-5888606691"
+            ],
+            "buildNumber": 12,
+            "workItems": {
+                "ODD-1999": [
+                    "f3647531"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "loan-charges",
+                    "to": "f3647531",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "f3647531",
+                    "commits": [
+                        {
+                            "commitId": "f3647531",
+                            "date": "2023-08-17T14:01:21+05:30",
+                            "author": "Atanu Das",
+                            "message": "Feat/ODD-1999 : This package includes charge validation development (#458)",
+                            "body": "* Feat/ODD-1999 : This package includes charge validation developemnt\r\n\r\n* loan charge validation rule patch updated"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "ee5b2925fa02b08a6d60ce25d0b807a3f9c7efd0",
+            "date": "Thu Aug 17 2023 08:39:55 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-20-08-5917212295"
+            ],
+            "buildNumber": 13,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "loan-charges",
+                    "from": "f3647531",
+                    "to": "69ec654e",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "f3647531",
+                    "commits": []
+                }
+            ],
+            "hashId": "ccb9710e79c728f752ba43f35db062c6160d547d",
+            "date": "Sun Aug 20 2023 12:12:39 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-20-08-5917364808"
+            ],
+            "buildNumber": 14,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "loan-charges",
+                    "from": "69ec654e",
+                    "to": "5b3831f2",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3647531",
+                    "commits": []
+                }
+            ],
+            "hashId": "373fc07ecd835c2aabc24725384f17099416f36a",
+            "date": "Sun Aug 20 2023 12:40:23 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-30-08-6026352406"
+            ],
+            "buildNumber": 15,
+            "workItems": {
+                "ODD-1978": [
+                    "bf19c681"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "statement-notification-automation",
+                    "from": "09020514",
+                    "to": "09020514",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "e1225d92",
+                    "commits": []
+                },
+                {
+                    "name": "settlement-workflow-automation",
+                    "from": "c8d30519",
+                    "to": "c8d30519",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "008e0171",
+                    "commits": []
+                },
+                {
+                    "name": "loan-charges",
+                    "from": "5b3831f2",
+                    "to": "5b3831f2",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3647531",
+                    "commits": []
+                },
+                {
+                    "name": "equifax-credit-report-search",
+                    "from": "348ee628",
+                    "to": "7e1d87e6",
+                    "version": "1.0.1.9",
+                    "latestCommitId": "bf19c681",
+                    "commits": [
+                        {
+                            "commitId": "bf19c681",
+                            "date": "2023-08-30T17:31:57+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "fix/ODD-1978/Test-class-fix-part-two (#553)",
+                            "body": "Test classes fixes and package version upgraded"
+                        }
+                    ]
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "7b8b4f61",
+                    "to": "7b8b4f61",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "7b8b4f61",
+                    "commits": []
+                },
+                {
+                    "name": "campaign-sms-management",
+                    "from": "60a14f80",
+                    "to": "60a14f80",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "3e1ff234",
+                    "commits": []
+                }
+            ],
+            "hashId": "528e06100d12e143f32f522d620209510a454cb6",
+            "date": "Fri Sep 01 2023 07:39:58 GMT+0000 (Coordinated Universal Time)"
+        }
+    ]
+}

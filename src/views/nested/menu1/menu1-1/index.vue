@@ -5,3 +5,11 @@
     </el-alert>
   </div>
 </template>
+<script>
+export default {
+  created() {
+    console.log(this.$route.name.toLowerCase())
+  }
+}
+</script>
+

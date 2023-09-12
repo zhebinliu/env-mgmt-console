@@ -1,0 +1,868 @@
+{
+    "orgs": [
+        {
+            "name": "prod",
+            "releases": [
+                {
+                    "names": [
+                        "Sprint-23.22-18-05-5009820880"
+                    ],
+                    "buildNumber": 1,
+                    "hashId": "4fbff84e36040935fbeebd7ae8e25a5a32565915"
+                },
+                {
+                    "names": [
+                        "Sprint-23.22-23-05-5054034365"
+                    ],
+                    "buildNumber": 4,
+                    "hashId": "a12a2eaee4dcd11f9d8204c5500afc89aaed3bef"
+                },
+                {
+                    "names": [
+                        "Sprint-23.23-05-06-5174418892"
+                    ],
+                    "buildNumber": 8,
+                    "hashId": "cc1f20e6df230693b4fa0325bdc7aec0ab7df59a"
+                },
+                {
+                    "names": [
+                        "Sprint-23.24-15-06-5275783224"
+                    ],
+                    "buildNumber": 10,
+                    "hashId": "99b49038fda3cfb9aacd4454f4467445aad3b96d"
+                },
+                {
+                    "names": [
+                        "Sprint-24.1-21-07-5617149955"
+                    ],
+                    "buildNumber": 11,
+                    "hashId": "325bb8a9516d350837c466d1fe7e43c853daffc1"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-10-08-5815688707"
+                    ],
+                    "buildNumber": 14,
+                    "hashId": "4341d666e830558151de42a5e59a243b688fa901"
+                },
+                {
+                    "names": [
+                        "Sprint-24.5-29-08-6014100716"
+                    ],
+                    "buildNumber": 15,
+                    "hashId": "ea25dd9800ffa20a85b0bad3814d17b09bcb6ba7"
+                },
+                {
+                    "names": [
+                        "Sprint-24.5-31-08-6034556334"
+                    ],
+                    "buildNumber": 16,
+                    "hashId": "fc01a0e21cc254c0e434dca81eeb2cdf46331740"
+                },
+                {
+                    "names": [
+                        "Sprint-24.5-31-08-6035464965"
+                    ],
+                    "buildNumber": 17,
+                    "hashId": "fac8ddf91767dcc8366a0e724816ede94bfbd3e6"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Sprint-24.5-31-08-6035464965"
+                ],
+                "buildNumber": 17,
+                "hashId": "fac8ddf91767dcc8366a0e724816ede94bfbd3e6"
+            },
+            "retryCount": 0
+        }
+    ],
+    "releases": [
+        {
+            "names": [
+                "Sprint-23.22-18-05-5009820880"
+            ],
+            "buildNumber": 1,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "call-management",
+                    "to": "207e60ef",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "47d7d7ec",
+                    "commits": [
+                        {
+                            "commitId": "47d7d7ec",
+                            "date": "2023-05-18T11:04:59+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "fix: rename call management to org-support",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "4fbff84e36040935fbeebd7ae8e25a5a32565915",
+            "date": "Fri May 19 2023 08:14:48 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.22-23-05-5051887228"
+            ],
+            "buildNumber": 2,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "call-management",
+                    "from": "207e60ef",
+                    "to": "8f43b7dc",
+                    "version": "1.0.0.4",
+                    "latestCommitId": "47d7d7ec",
+                    "commits": []
+                }
+            ],
+            "hashId": "b0c0efcaf27347aa78e67bb094994a64cb262642",
+            "date": "Tue May 23 2023 01:24:45 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.22-23-05-5053140893"
+            ],
+            "buildNumber": 3,
+            "workItems": {
+                "OIBCR-2065": [
+                    "bf0d56cc"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "call-management",
+                    "from": "8f43b7dc",
+                    "to": "bf0d56cc",
+                    "version": "1.0.0.9",
+                    "latestCommitId": "bf0d56cc",
+                    "commits": [
+                        {
+                            "commitId": "bf0d56cc",
+                            "date": "2023-05-23T12:22:26+08:00",
+                            "author": "Roy Ventura",
+                            "message": "hotfix: OIBCR-2065 Added fix for the null exception error (#78)",
+                            "body": "Added fix for the null exception error for missedCallTask variable"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "4b6f23b1126e4bcc33ff41a49ea0373bbff00370",
+            "date": "Tue May 23 2023 04:37:40 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.22-23-05-5054034365"
+            ],
+            "buildNumber": 4,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "call-management",
+                    "from": "bf0d56cc",
+                    "to": "8751db3b",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "bf0d56cc",
+                    "commits": []
+                }
+            ],
+            "hashId": "a12a2eaee4dcd11f9d8204c5500afc89aaed3bef",
+            "date": "Tue May 23 2023 07:01:44 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.23-02-06-5150948273"
+            ],
+            "buildNumber": 5,
+            "workItems": {
+                "Odd-1551": [
+                    "28a38ae4"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "batch-log-management",
+                    "to": "04fdebd9",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "04fdebd9",
+                    "commits": [
+                        {
+                            "commitId": "04fdebd9",
+                            "date": "2023-06-02T11:41:41+10:00",
+                            "author": "build-bot",
+                            "message": "fix: add object definition and other fields",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "28a38ae4",
+                            "date": "2023-06-01T13:28:22+05:30",
+                            "author": "Atanu Das",
+                            "message": "Feat/Odd-1551,1552,1553 : this include all the 3 ticket development (#98)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "afba7c28edf767cfdae3a7235e979bb241ff0c67",
+            "date": "Fri Jun 02 2023 02:37:02 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.23-02-06-5150948273"
+            ],
+            "buildNumber": 6,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "batch-log-management",
+                    "from": "04fdebd9",
+                    "to": "04fdebd9",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "04fdebd9",
+                    "commits": []
+                },
+                {
+                    "name": "call-management",
+                    "from": "8751db3b",
+                    "to": "8751db3b",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "bf0d56cc",
+                    "commits": []
+                }
+            ],
+            "hashId": "a6b326425d3e5a4c0cf0bfc6a764014e0b724129",
+            "date": "Mon Jun 05 2023 02:26:55 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.23-05-06-5174418892"
+            ],
+            "buildNumber": 7,
+            "workItems": {
+                "odd-1531": [
+                    "e4f19e17"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "batch-log-management",
+                    "from": "04fdebd9",
+                    "to": "e4f19e17",
+                    "version": "1.0.0.5",
+                    "latestCommitId": "e4f19e17",
+                    "commits": [
+                        {
+                            "commitId": "e4f19e17",
+                            "date": "2023-06-05T12:52:46+05:30",
+                            "author": "Sayak Mukhopadhyay",
+                            "message": "fix/odd-1531 (#106)",
+                            "body": "1. fix test classes\r\n2. remove asserts from test setup\r\n3. modify test method name\r\n\r\n---------\r\n\r\nCo-authored-by: atanu-das-ck <atanu.das@cloudkaptan.com>\r\nCo-authored-by: Atanu Das <74170904+atanu-das-ck@users.noreply.github.com>"
+                        },
+                        {
+                            "commitId": "bb238d77",
+                            "date": "2023-06-05T04:28:07+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "fix: remove invalid file [ci skip]",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "c85a30201800e94cad9fef037b55e83ae81727fe",
+            "date": "Mon Jun 05 2023 10:03:22 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.23-05-06-5174418892"
+            ],
+            "buildNumber": 8,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "batch-log-management",
+                    "from": "e4f19e17",
+                    "to": "e4f19e17",
+                    "version": "1.0.0.5",
+                    "latestCommitId": "e4f19e17",
+                    "commits": []
+                },
+                {
+                    "name": "call-management",
+                    "from": "8751db3b",
+                    "to": "8751db3b",
+                    "version": "1.0.1.1",
+                    "latestCommitId": "bf0d56cc",
+                    "commits": []
+                }
+            ],
+            "hashId": "cc1f20e6df230693b4fa0325bdc7aec0ab7df59a",
+            "date": "Mon Jun 05 2023 11:50:51 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-15-06-5275783224"
+            ],
+            "buildNumber": 9,
+            "workItems": {
+                "OIBCR-2662": [
+                    "e6751ccb"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "call-management",
+                    "from": "8751db3b",
+                    "to": "e6751ccb",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "e6751ccb",
+                    "commits": [
+                        {
+                            "commitId": "e6751ccb",
+                            "date": "2023-06-15T15:02:35+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OIBCR-2662 added call logs deletion (#135)",
+                            "body": "* OIBCR-2662 added call logs deletion\r\n\r\n* added security enforced\r\n\r\n* Added assertations for call logs"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "2f766f4f5d111a633b7a6935328b819cf1772e4e",
+            "date": "Thu Jun 15 2023 07:21:24 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-20-07-5612869511"
+            ],
+            "buildNumber": 10,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "aba-file-generator",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": [
+                        {
+                            "commitId": "c017e0b0",
+                            "date": "2023-05-18T11:00:56+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "feat: add domain based releases",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "breach-register",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": [
+                        {
+                            "commitId": "c017e0b0",
+                            "date": "2023-05-18T11:00:56+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "feat: add domain based releases",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "clone-records",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "b0885b5c",
+                    "commits": [
+                        {
+                            "commitId": "b0885b5c",
+                            "date": "2023-07-20T10:44:20+10:00",
+                            "author": "buildbot",
+                            "message": "fix(cicd): rework existing paths [ci skip]",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "gift-register",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": [
+                        {
+                            "commitId": "c017e0b0",
+                            "date": "2023-05-18T11:00:56+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "feat: add domain based releases",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "training-register",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": [
+                        {
+                            "commitId": "c017e0b0",
+                            "date": "2023-05-18T11:00:56+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "feat: add domain based releases",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "7d7854be9a0d8b2be6dd79a93562dfbde6a1b497",
+            "date": "Thu Jul 20 2023 15:33:19 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-21-07-5617149955"
+            ],
+            "buildNumber": 11,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sandbox-post-refresh-activities",
+                    "to": "3b5d4d16",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "7ea6f1f2",
+                    "commits": [
+                        {
+                            "commitId": "7ea6f1f2",
+                            "date": "2023-07-20T20:51:45+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "package created and classes developed (#257)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "325bb8a9516d350837c466d1fe7e43c853daffc1",
+            "date": "Fri Jul 21 2023 00:26:50 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-08-08-5793064555"
+            ],
+            "buildNumber": 12,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "call-management",
+                    "from": "e6751ccb",
+                    "to": "80763540",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "80763540",
+                    "commits": [
+                        {
+                            "commitId": "80763540",
+                            "date": "2023-08-08T13:19:53+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: update zoom delete task test class (#385)",
+                            "body": "* fix test class\r\n\r\n* increment the package version"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "5ba4ad924ce6aaa9b7dbe799542ea2d9f764cbd9",
+            "date": "Tue Aug 08 2023 05:29:53 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-10-08-5815688707"
+            ],
+            "buildNumber": 13,
+            "workItems": {
+                "ODD-1810": [
+                    "2132b81f"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "breach-register",
+                    "from": "7ea6f1f2",
+                    "to": "2132b81f",
+                    "version": "1.0.0.5815688707",
+                    "latestCommitId": "2132b81f",
+                    "commits": [
+                        {
+                            "commitId": "2132b81f",
+                            "date": "2023-08-10T09:01:38+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat:ODD-1810 - updated page layouts to remove quick actions of lead's old record types (#407)",
+                            "body": "removed the quick actions"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "faa7050eb1d662be08204c5a86c38b4118a543c2",
+            "date": "Thu Aug 10 2023 01:09:46 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-10-08-5815688707"
+            ],
+            "buildNumber": 14,
+            "workItems": {
+                "ODD-1936": [
+                    "cfa92b08"
+                ],
+                "ODD-1795": [
+                    "ae4fe76f"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "utilities",
+                    "to": "cfa92b08",
+                    "version": "1.0.0.5791723682",
+                    "latestCommitId": "cfa92b08",
+                    "commits": [
+                        {
+                            "commitId": "cfa92b08",
+                            "date": "2023-08-08T09:36:55+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1936 - lead auto conversion (#375)",
+                            "body": "* lead auto conversion\r\n\r\n* updated the apex classes\r\n\r\n* updated test class\r\n\r\n* updated the validation rules\r\n\r\n* added flow\r\n\r\n* updated flow\r\n\r\n* updated the test class\r\n\r\n* added string helper\r\n\r\n* added utilities"
+                        },
+                        {
+                            "commitId": "ae4fe76f",
+                            "date": "2023-08-01T11:29:33+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1795 - formatted currency changes (#326)",
+                            "body": "* formatted currency changes\r\n\r\n* changed testMethod to isTest\r\n\r\n* refactored the changes and updated the test class\r\n\r\n* created utilities as shared source package"
+                        }
+                    ]
+                },
+                {
+                    "name": "training-register",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": []
+                },
+                {
+                    "name": "sandbox-post-refresh-activities",
+                    "from": "3b5d4d16",
+                    "to": "3b5d4d16",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "7ea6f1f2",
+                    "commits": []
+                },
+                {
+                    "name": "gift-register",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": []
+                },
+                {
+                    "name": "clone-records",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "b0885b5c",
+                    "commits": []
+                },
+                {
+                    "name": "call-management",
+                    "from": "80763540",
+                    "to": "80763540",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "80763540",
+                    "commits": []
+                },
+                {
+                    "name": "breach-register",
+                    "from": "2132b81f",
+                    "to": "2132b81f",
+                    "version": "1.0.0.5815688707",
+                    "latestCommitId": "2132b81f",
+                    "commits": []
+                },
+                {
+                    "name": "batch-log-management",
+                    "from": "e4f19e17",
+                    "to": "e4f19e17",
+                    "version": "1.0.0.5",
+                    "latestCommitId": "e4f19e17",
+                    "commits": []
+                },
+                {
+                    "name": "aba-file-generator",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "c017e0b0",
+                    "commits": []
+                }
+            ],
+            "hashId": "4341d666e830558151de42a5e59a243b688fa901",
+            "date": "Mon Aug 14 2023 01:25:48 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-29-08-6014100716"
+            ],
+            "buildNumber": 15,
+            "workItems": {
+                "ODD-1978": [
+                    "ae7d801c",
+                    "0a080ffc",
+                    "b379e2ed",
+                    "a130b9a9"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "utilities",
+                    "from": "cfa92b08",
+                    "to": "cfa92b08",
+                    "version": "1.0.0.5791723682",
+                    "latestCommitId": "cfa92b08",
+                    "commits": []
+                },
+                {
+                    "name": "shared-generic-utility-helper",
+                    "to": "421e72b7",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "ae7d801c",
+                    "commits": [
+                        {
+                            "commitId": "ae7d801c",
+                            "date": "2023-08-29T20:18:36+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "Test helper dependencies fixed (#536)",
+                            "body": "<details open>\r\n<summary><a href=\"https://wingategroup.atlassian.net/browse/ODD-1978\"\r\ntitle=\"ODD-1978\" target=\"_blank\">ODD-1978</a></summary>\r\n  <br />\r\n  <table>\r\n    <tr>\r\n      <th>Summary</th>\r\n      <td>Cleaning of Test Classes - Sprint 24.3 24.4. 24.5</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Type</th>\r\n      <td>\r\n<img alt=\"Story\"\r\nsrc=\"https://wingategroup.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium\"\r\n/>\r\n        Story\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <th>Status</th>\r\n      <td>In Development</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Points</th>\r\n      <td>N/A</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Labels</th>\r\n      <td>-</td>\r\n    </tr>\r\n  </table>\r\n</details>\r\n<!--\r\n  do not remove this marker as it will break jira-lint's functionality.\r\n  added_by_jira_lint\r\n-->\r\n\r\n---\r\n\r\n1978 Test Setup packages versions and dependencies fixed"
+                        },
+                        {
+                            "commitId": "018e1305",
+                            "date": "2023-08-25T06:21:27+05:30",
+                            "author": "Atanu Das",
+                            "message": "Fix/odd 1978 test class cleaning part one (#497)",
+                            "body": "* testMethodNames updated,testSetup helper broken up\r\n\r\n* DAG test helper moved to org support packages\r\n\r\n* version updated in batch-log-management\r\n\r\n* packaging fixed\r\n\r\n* DAG Test Helper put in un-packaged\r\n\r\n* Package created for Test Helpers\r\n\r\n* Packaged upgraded to a new version\r\n\r\n* package upgraded\r\n\r\n* Test class updated according to the helpar class method change.\r\n\r\n* StandardFeaturesTestHelper class updated\r\n\r\n* StandardFeaturesTestHelper class updated\r\n\r\n* package directory changed\r\n\r\n* packaged upgraded\r\n\r\n* package upgraded\r\n\r\n* package dependency added\r\n\r\n* project json added\r\n\r\n---------\r\n\r\nCo-authored-by: Rameswari Barman <rameswari.barman@cloudkaptan.com>\r\nCo-authored-by: Azlam Abdulsalam <azlam.abdulsalam@furo.io>"
+                        },
+                        {
+                            "commitId": "0a080ffc",
+                            "date": "2023-08-24T11:39:05+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "Fix/[ODD-1978]-Test-Class-Cleaning-Part-One (#477)",
+                            "body": "* testMethodNames updated,testSetup helper broken up\r\n\r\n* DAG test helper moved to org support packages\r\n\r\n* version updated in batch-log-management\r\n\r\n* packaging fixed\r\n\r\n* DAG Test Helper put in un-packaged\r\n\r\n* Package created for Test Helpers\r\n\r\n* Packaged upgraded to a new version\r\n\r\n---------\r\n\r\nCo-authored-by: atanu-das-ck <atanu.das@cloudkaptan.com>"
+                        }
+                    ]
+                },
+                {
+                    "name": "clone-records",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "b0885b5c",
+                    "commits": []
+                },
+                {
+                    "name": "call-management",
+                    "from": "80763540",
+                    "to": "80763540",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "80763540",
+                    "commits": []
+                },
+                {
+                    "name": "batch-log-management",
+                    "from": "e4f19e17",
+                    "to": "93304b35",
+                    "version": "1.0.2.6",
+                    "latestCommitId": "b379e2ed",
+                    "commits": [
+                        {
+                            "commitId": "b379e2ed",
+                            "date": "2023-08-25T22:28:26+05:30",
+                            "author": "Sanjana De",
+                            "message": "fix/ODD-1978: moved DataMigrationErrorDeletionBatch - packaging fix (#509)",
+                            "body": "<details open>\r\n<summary><a href=\"https://wingategroup.atlassian.net/browse/ODD-1978\"\r\ntitle=\"ODD-1978\" target=\"_blank\">ODD-1978</a></summary>\r\n  <br />\r\n  <table>\r\n    <tr>\r\n      <th>Summary</th>\r\n      <td>Cleaning of Test Classes - Sprint 24.3</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Type</th>\r\n      <td>\r\n<img alt=\"Story\"\r\nsrc=\"https://wingategroup.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium\"\r\n/>\r\n        Story\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <th>Status</th>\r\n      <td>In Development</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Points</th>\r\n      <td>N/A</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Labels</th>\r\n      <td>-</td>\r\n    </tr>\r\n  </table>\r\n</details>\r\n<!--\r\n  do not remove this marker as it will break jira-lint's functionality.\r\n  added_by_jira_lint\r\n-->\r\n\r\n---\r\n\r\n[ODD-1978]\r\n\r\n[ODD-1978]:\r\nhttps://wingategroup.atlassian.net/browse/ODD-1978?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
+                        },
+                        {
+                            "commitId": "a130b9a9",
+                            "date": "2023-08-25T15:12:34+05:30",
+                            "author": "Sanjana De",
+                            "message": "fix/ODD-1978: fix for failing test class coverage (#506)",
+                            "body": "<details open>\r\n<summary><a href=\"https://wingategroup.atlassian.net/browse/ODD-1978\"\r\ntitle=\"ODD-1978\" target=\"_blank\">ODD-1978</a></summary>\r\n  <br />\r\n  <table>\r\n    <tr>\r\n      <th>Summary</th>\r\n      <td>Cleaning of Test Classes - Sprint 24.3</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Type</th>\r\n      <td>\r\n<img alt=\"Story\"\r\nsrc=\"https://wingategroup.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium\"\r\n/>\r\n        Story\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <th>Status</th>\r\n      <td>In Development</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Points</th>\r\n      <td>N/A</td>\r\n    </tr>\r\n    <tr>\r\n      <th>Labels</th>\r\n      <td>-</td>\r\n    </tr>\r\n  </table>\r\n</details>\r\n<!--\r\n  do not remove this marker as it will break jira-lint's functionality.\r\n  added_by_jira_lint\r\n-->\r\n\r\n---\r\n\r\n[ODD-1978]\r\n\r\n[ODD-1978]:\r\nhttps://wingategroup.atlassian.net/browse/ODD-1978?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ"
+                        },
+                        {
+                            "commitId": "3bdf5480",
+                            "date": "2023-08-25T10:36:40+05:30",
+                            "author": "Atanu Das",
+                            "message": "DataMigrationErrorDeletionBatch test class added to fix the PR issue (#503)",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "0a080ffc",
+                            "date": "2023-08-24T11:39:05+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "Fix/[ODD-1978]-Test-Class-Cleaning-Part-One (#477)",
+                            "body": "* testMethodNames updated,testSetup helper broken up\r\n\r\n* DAG test helper moved to org support packages\r\n\r\n* version updated in batch-log-management\r\n\r\n* packaging fixed\r\n\r\n* DAG Test Helper put in un-packaged\r\n\r\n* Package created for Test Helpers\r\n\r\n* Packaged upgraded to a new version\r\n\r\n---------\r\n\r\nCo-authored-by: atanu-das-ck <atanu.das@cloudkaptan.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "ea25dd9800ffa20a85b0bad3814d17b09bcb6ba7",
+            "date": "Wed Aug 30 2023 06:16:56 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-31-08-6034556334"
+            ],
+            "buildNumber": 16,
+            "workItems": {
+                "ODD-1978": [
+                    "38bb2006",
+                    "bf19c681"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "utilities",
+                    "from": "cfa92b08",
+                    "to": "cfa92b08",
+                    "version": "1.0.0.5791723682",
+                    "latestCommitId": "cfa92b08",
+                    "commits": []
+                },
+                {
+                    "name": "sandbox-post-refresh-activities",
+                    "from": "3b5d4d16",
+                    "to": "cc6fbad0",
+                    "version": "1.0.1.12",
+                    "latestCommitId": "38bb2006",
+                    "commits": [
+                        {
+                            "commitId": "38bb2006",
+                            "date": "2023-08-31T12:29:58+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "Fix/ODD-1978/backlog-test-class-fixes-part-three (#554)",
+                            "body": "* Backlog Test Classes Fixes Part Three\r\n\r\n* Package versions upgraded\r\n\r\n* fix BankAccountTriggerHelperTest\r\n\r\n---------\r\n\r\nCo-authored-by: sayak.mukhopadhyay@cloudkaptan.com <sayak.mukhopadhyay@cloudkaptan.com>"
+                        }
+                    ]
+                },
+                {
+                    "name": "clone-records",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "b0885b5c",
+                    "commits": []
+                },
+                {
+                    "name": "call-management",
+                    "from": "80763540",
+                    "to": "80763540",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "80763540",
+                    "commits": []
+                },
+                {
+                    "name": "batch-log-management",
+                    "from": "93304b35",
+                    "to": "7e1d87e6",
+                    "version": "1.0.4.13",
+                    "latestCommitId": "bf19c681",
+                    "commits": [
+                        {
+                            "commitId": "bf19c681",
+                            "date": "2023-08-30T17:31:57+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "fix/ODD-1978/Test-class-fix-part-two (#553)",
+                            "body": "Test classes fixes and package version upgraded"
+                        },
+                        {
+                            "commitId": "7bfad569",
+                            "date": "2023-08-30T16:23:09+05:30",
+                            "author": "Rameswari Barman",
+                            "message": "Test class and packhage version updated (#551)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "fc01a0e21cc254c0e434dca81eeb2cdf46331740",
+            "date": "Fri Sep 01 2023 07:54:23 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-31-08-6035464965"
+            ],
+            "buildNumber": 17,
+            "workItems": {
+                "OIBCR-2858": [
+                    "918c61d5"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "utilities",
+                    "from": "cfa92b08",
+                    "to": "cfa92b08",
+                    "version": "1.0.0.5791723682",
+                    "latestCommitId": "cfa92b08",
+                    "commits": []
+                },
+                {
+                    "name": "sandbox-post-refresh-activities",
+                    "from": "cc6fbad0",
+                    "to": "cc6fbad0",
+                    "version": "1.0.1.12",
+                    "latestCommitId": "38bb2006",
+                    "commits": []
+                },
+                {
+                    "name": "license-tracker",
+                    "to": "918c61d5",
+                    "version": "1.0.0.6",
+                    "latestCommitId": "918c61d5",
+                    "commits": [
+                        {
+                            "commitId": "918c61d5",
+                            "date": "2023-08-31T17:19:58+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: OIBCR-2858 - License Tracker (#529)",
+                            "body": "* license tracker components\r\n\r\n* renamed to licenseTracker\r\n\r\n* removed licenses in unpackaged\r\n\r\n* added flexipage\r\n\r\n* updated flexipage\r\n\r\n* applied the feedbacks"
+                        }
+                    ]
+                },
+                {
+                    "name": "clone-records",
+                    "from": "7ea6f1f2",
+                    "to": "7ea6f1f2",
+                    "version": "1.0.0.5612869511",
+                    "latestCommitId": "b0885b5c",
+                    "commits": []
+                },
+                {
+                    "name": "call-management",
+                    "from": "80763540",
+                    "to": "80763540",
+                    "version": "1.0.3.1",
+                    "latestCommitId": "80763540",
+                    "commits": []
+                },
+                {
+                    "name": "batch-log-management",
+                    "from": "7e1d87e6",
+                    "to": "7e1d87e6",
+                    "version": "1.0.4.13",
+                    "latestCommitId": "bf19c681",
+                    "commits": []
+                }
+            ],
+            "hashId": "fac8ddf91767dcc8366a0e724816ede94bfbd3e6",
+            "date": "Mon Sep 11 2023 07:27:29 GMT+0000 (Coordinated Universal Time)"
+        }
+    ]
+}

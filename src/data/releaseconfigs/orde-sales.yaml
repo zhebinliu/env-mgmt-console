@@ -1,0 +1,23 @@
+# release-config for sales packages
+
+releaseName: orde-sales
+domainNameUsedForPools: ORDE_SALES
+excludeAllPackageDependencies: true 
+includeOnlyArtifacts:
+# orgshape and core-objects are shared so added here as well
+  - orgshape
+  - utilities
+  - core-objects-duplicate-management
+  - sales-ui
+  - sales-channels
+  - broker-survey-management
+  - sales-src-access-management
+releasedefinitionProperties:
+  skipIfAlreadyInstalled: true
+  usePackageDiffDeploymentMode: true
+  promotePackagesBeforeDeploymentToOrg: prod
+  changelog:
+    workItemFilters:
+      -  (ODD|OIBCR|OSD)-[0-9]{3,4}
+    workItemUrl: https://wingategroup.atlassian.net/browse
+    limit: 

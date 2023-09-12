@@ -6,6 +6,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import dashbords from '@/data/dashboard.json'
 
 export default {
   name: 'Dashboard',

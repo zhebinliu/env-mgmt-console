@@ -1,0 +1,2825 @@
+{
+    "orgs": [
+        {
+            "name": "staging",
+            "releases": [
+                {
+                    "names": [
+                        "Sprint-23.23-29-05-5109105842"
+                    ],
+                    "buildNumber": 3,
+                    "hashId": "f1ebbe469a92b53a70756e5068687f8bffa29092"
+                },
+                {
+                    "names": [
+                        "Sprint-23.24-09-06-5217794934"
+                    ],
+                    "buildNumber": 9,
+                    "hashId": "04b1bd84eda0eb15c6e52cab4500043d5b613a7d"
+                },
+                {
+                    "names": [
+                        "Sprint-23.24-13-06-5254943573"
+                    ],
+                    "buildNumber": 11,
+                    "hashId": "57b8108ce4ffd8b7efaf67b0059375cc20f30c99"
+                },
+                {
+                    "names": [
+                        "Sprint-23.25-27-06-5385883655"
+                    ],
+                    "buildNumber": 22,
+                    "hashId": "f76642c64e3f61854f1fbc1e4c084897ea4fac38"
+                },
+                {
+                    "names": [
+                        "Sprint-23.25-30-06-5418221727"
+                    ],
+                    "buildNumber": 27,
+                    "hashId": "6cd403f487a7453d105df3fe806c31704a0d5b8a"
+                },
+                {
+                    "names": [
+                        "Sprint-23.25-03-07-5442409584"
+                    ],
+                    "buildNumber": 30,
+                    "hashId": "c58a059e3a25dfe79a3f72c7e4e71bc337201387"
+                },
+                {
+                    "names": [
+                        "Sprint-24.1-13-07-5538976509"
+                    ],
+                    "buildNumber": 35,
+                    "hashId": "133b76ce7849f149a0e1c876f1532ae9acf5f64a"
+                },
+                {
+                    "names": [
+                        "Sprint-24.2-25-07-5651299245"
+                    ],
+                    "buildNumber": 36,
+                    "hashId": "902adacf5886e2c8fbe975f5e179ff529ff1583b"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-02-08-5733276800"
+                    ],
+                    "buildNumber": 46,
+                    "hashId": "ffaa7f1cd3d6f6a103dda29ecef32265b952861a"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-02-08-5737008635"
+                    ],
+                    "buildNumber": 48,
+                    "hashId": "44f2f9d0b0f51487a2e9a992a3071a6bad66283a"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-02-08-5737393783"
+                    ],
+                    "buildNumber": 49,
+                    "hashId": "36a44ecd9df6514ad3122f86fc8a25f8d22bfd12"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-08-08-5791723683"
+                    ],
+                    "buildNumber": 50,
+                    "hashId": "4a965769ef58bbb5577c7db3840e6021e9f10913"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-10-08-5815688710"
+                    ],
+                    "buildNumber": 52,
+                    "hashId": "3456fe0aa61465f98675bfc3c82b58f815b2bd1e"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-22-08-5932993655"
+                    ],
+                    "buildNumber": 53,
+                    "hashId": "31f028f6321d6fb6a6802c37a5423b42dfd09b81"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Sprint-24.3-22-08-5932993655"
+                ],
+                "buildNumber": 53,
+                "hashId": "31f028f6321d6fb6a6802c37a5423b42dfd09b81"
+            },
+            "retryCount": 1
+        },
+        {
+            "name": "prod",
+            "releases": [
+                {
+                    "names": [
+                        "Sprint-23.23-29-05-5109105842"
+                    ],
+                    "buildNumber": 3,
+                    "hashId": "f1ebbe469a92b53a70756e5068687f8bffa29092"
+                },
+                {
+                    "names": [
+                        "Sprint-23.24-13-06-5254943573"
+                    ],
+                    "buildNumber": 11,
+                    "hashId": "57b8108ce4ffd8b7efaf67b0059375cc20f30c99"
+                },
+                {
+                    "names": [
+                        "Sprint-23.25-27-06-5385883655"
+                    ],
+                    "buildNumber": 22,
+                    "hashId": "f76642c64e3f61854f1fbc1e4c084897ea4fac38"
+                },
+                {
+                    "names": [
+                        "Sprint-23.25-03-07-5442409584"
+                    ],
+                    "buildNumber": 30,
+                    "hashId": "c58a059e3a25dfe79a3f72c7e4e71bc337201387"
+                },
+                {
+                    "names": [
+                        "Sprint-24.1-13-07-5538976509"
+                    ],
+                    "buildNumber": 34,
+                    "hashId": "332c8f36165c165c4c7bdeac70aea6ef042d9e59"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-02-08-5737393783"
+                    ],
+                    "buildNumber": 49,
+                    "hashId": "36a44ecd9df6514ad3122f86fc8a25f8d22bfd12"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-08-08-5791723683"
+                    ],
+                    "buildNumber": 50,
+                    "hashId": "4a965769ef58bbb5577c7db3840e6021e9f10913"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-10-08-5815688710"
+                    ],
+                    "buildNumber": 52,
+                    "hashId": "3456fe0aa61465f98675bfc3c82b58f815b2bd1e"
+                },
+                {
+                    "names": [
+                        "Sprint-24.3-22-08-5932993655"
+                    ],
+                    "buildNumber": 53,
+                    "hashId": "31f028f6321d6fb6a6802c37a5423b42dfd09b81"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Sprint-24.3-22-08-5932993655"
+                ],
+                "buildNumber": 53,
+                "hashId": "31f028f6321d6fb6a6802c37a5423b42dfd09b81"
+            },
+            "retryCount": 0
+        }
+    ],
+    "releases": [
+        {
+            "names": [
+                "Sprint-23.22-19-05-5020491138"
+            ],
+            "buildNumber": 1,
+            "workItems": {
+                "ODD-1424": [
+                    "7fd08dc2",
+                    "f4e8325d"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "to": "8471c851",
+                    "version": "1.0.0.5020491138",
+                    "latestCommitId": "4ec5e391",
+                    "commits": [
+                        {
+                            "commitId": "4ec5e391",
+                            "date": "2023-05-18T15:38:52+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "fix: move sales-channels to org dependent unlocked",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "1052b06b",
+                            "date": "2023-04-20T15:59:35+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "move application core into its own package",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "bae9cc55",
+                            "date": "2023-04-20T12:09:13+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "move into packages",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "to": "8471c851",
+                    "version": "1.0.0.6",
+                    "latestCommitId": "7fd08dc2",
+                    "commits": [
+                        {
+                            "commitId": "7fd08dc2",
+                            "date": "2023-05-19T11:15:44+08:00",
+                            "author": "Roy Ventura",
+                            "message": "bugfix: ODD-1424 Distribution Lead Process - Configuring Leads (#70)",
+                            "body": "Cloned the app to contain the changes for ODD-1424\r\nCreated a temporary permission set to contain the FLS of new fields\r\n\r\n[ ODD-1424 ]"
+                        },
+                        {
+                            "commitId": "f4e8325d",
+                            "date": "2023-05-18T14:43:52+08:00",
+                            "author": "Roy Ventura",
+                            "message": "removed the components not related to ODD-1424 (#65)",
+                            "body": "Cleaned the sales-channels package to include only the components of\r\nODD-1424"
+                        },
+                        {
+                            "commitId": "4ec5e391",
+                            "date": "2023-05-18T15:38:52+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "fix: move sales-channels to org dependent unlocked",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "147890f4",
+                            "date": "2023-05-18T13:26:59+08:00",
+                            "author": "Roy Ventura",
+                            "message": "Configuring Leads (#63)",
+                            "body": "- Added \"sales-channels\" package\r\n- Lead's new record types, fields, page layout, flexipage (dynamic form)\r\n- Excluded to be deployed to Production\r\n- No profile/permission sets components for now\r\n\r\n---------\r\n\r\nCo-authored-by: azlam-abdulsalam <azlam@adiza.dev>\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "70000c6788006766598f860f6d6bfa94af53bea8",
+            "date": "Fri May 19 2023 04:11:46 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.22-22-05-5040394123"
+            ],
+            "buildNumber": 2,
+            "workItems": {
+                "ODD-1425": [
+                    "f3dd8ede"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "8471c851",
+                    "to": "f3dd8ede",
+                    "version": "1.0.0.7",
+                    "latestCommitId": "f3dd8ede",
+                    "commits": [
+                        {
+                            "commitId": "f3dd8ede",
+                            "date": "2023-05-22T08:05:45+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1425 Distribution Lead Process - Lead List Views (#71)",
+                            "body": "Updated Lead's All Open List View"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "04f0e759718dc9ebef714e837fa1155fac3a88af",
+            "date": "Mon May 22 2023 00:56:11 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.23-29-05-5109105842"
+            ],
+            "buildNumber": 3,
+            "workItems": {
+                "ODD-1476": [
+                    "a44a5764"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "to": "a44a5764",
+                    "version": "1.0.1.4",
+                    "latestCommitId": "a44a5764",
+                    "commits": [
+                        {
+                            "commitId": "a44a5764",
+                            "date": "2023-05-29T14:17:39+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1476 Customer Vulnerability (#92)",
+                            "body": "- Created new fields for Customer Vulnerability\r\n- Upgraded the lightning record page to dynamic form\r\n- Created a permission set to manage visibility on customer\r\nvulnerability"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "f1ebbe469a92b53a70756e5068687f8bffa29092",
+            "date": "Mon May 29 2023 06:35:05 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.23-02-06-5150716708"
+            ],
+            "buildNumber": 4,
+            "workItems": {
+                "ODD-1424": [
+                    "f68480cf"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "8471c851",
+                    "to": "169d7034",
+                    "version": "1.0.0.5150716708",
+                    "latestCommitId": "f68480cf",
+                    "commits": [
+                        {
+                            "commitId": "f68480cf",
+                            "date": "2023-06-02T08:06:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1424 Distribution Lead Process - Configuring Leads (#100)",
+                            "body": "- added new sections and fields\r\n\r\n\r\nhttps://wingategroup.atlassian.net/browse/ODD-1424"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "f3dd8ede",
+                    "to": "169d7034",
+                    "version": "1.0.0.23",
+                    "latestCommitId": "f68480cf",
+                    "commits": [
+                        {
+                            "commitId": "f68480cf",
+                            "date": "2023-06-02T08:06:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1424 Distribution Lead Process - Configuring Leads (#100)",
+                            "body": "- added new sections and fields\r\n\r\n\r\nhttps://wingategroup.atlassian.net/browse/ODD-1424"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "fce7393208974eb6ba055d875a0c7ea4724d5f82",
+            "date": "Fri Jun 02 2023 01:15:19 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-08-06-5206884062"
+            ],
+            "buildNumber": 5,
+            "workItems": {
+                "ODD-1565": [
+                    "6ebb07ca"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "a44a5764",
+                    "to": "6ebb07ca",
+                    "version": "1.0.1.20",
+                    "latestCommitId": "6ebb07ca",
+                    "commits": [
+                        {
+                            "commitId": "6ebb07ca",
+                            "date": "2023-06-08T10:57:44+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1565 Customer Vulnerability - Day 2 (#111)",
+                            "body": "- Added component visibility to fields under Vulnerability section\r\n- Added Vulnerable Customer in the compact layout\r\n- New compact layouts and compact layout assignment\r\n\r\nhttps://wingategroup.atlassian.net/browse/ODD-1565\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>\r\nCo-authored-by: azlam-abdulsalam <buildbot@orde.com.au>"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "169d7034",
+                    "to": "6ebb07ca",
+                    "version": "1.1.0.6",
+                    "latestCommitId": "f68480cf",
+                    "commits": []
+                }
+            ],
+            "hashId": "8e4108bf93a0f01ec820db4414f243c42d3859e7",
+            "date": "Thu Jun 08 2023 03:15:39 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-08-06-5207786074"
+            ],
+            "buildNumber": 6,
+            "workItems": {
+                "ODD-1565": [
+                    "63639cc8",
+                    "30290303"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "6ebb07ca",
+                    "to": "63639cc8",
+                    "version": "1.0.1.24",
+                    "latestCommitId": "63639cc8",
+                    "commits": [
+                        {
+                            "commitId": "63639cc8",
+                            "date": "2023-06-08T13:36:12+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1565 Customer Vulnerability - Day 2  (#120)",
+                            "body": "- updated the version to fix uat deployment error\r\n\r\nhttps://wingategroup.atlassian.net/browse/ODD-1565"
+                        },
+                        {
+                            "commitId": "30290303",
+                            "date": "2023-06-08T12:26:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1565 Customer Vulnerability - Day 2 (#119)",
+                            "body": "- created a flow specific to customer vulnerability to reset fields when\r\nthe checkbox is unticked\r\n\r\nhttps://wingategroup.atlassian.net/browse/ODD-1565\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "cde22a9f57a504fc67ef218e946442c294603059",
+            "date": "Thu Jun 08 2023 05:50:01 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-08-06-5208626684"
+            ],
+            "buildNumber": 7,
+            "workItems": {
+                "ODD-1562": [
+                    "196e4053"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "63639cc8",
+                    "to": "196e4053",
+                    "version": "1.0.1.25",
+                    "latestCommitId": "196e4053",
+                    "commits": [
+                        {
+                            "commitId": "196e4053",
+                            "date": "2023-06-08T15:34:42+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1562 Layout change - account level (#118)",
+                            "body": "- created new fields\r\n- updated the selected fields to be displayed on the related list\r\n\r\nhttps://wingategroup.atlassian.net/browse/ODD-1562\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "3e9e5ce85f08fad2dc014c216cbceafa9a5f85f9",
+            "date": "Thu Jun 08 2023 07:46:04 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-09-06-5217794934"
+            ],
+            "buildNumber": 8,
+            "workItems": {
+                "ODD-1562": [
+                    "f3497e0c"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "196e4053",
+                    "to": "f3497e0c",
+                    "version": "1.0.1.26",
+                    "latestCommitId": "f3497e0c",
+                    "commits": [
+                        {
+                            "commitId": "f3497e0c",
+                            "date": "2023-06-09T11:01:07+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1562 Layout change - account level (#124)",
+                            "body": "- added the field level security to the permission set"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "540c39e836d07954bf8835dba37a31953e0e44b2",
+            "date": "Fri Jun 09 2023 03:11:08 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-09-06-5217794934"
+            ],
+            "buildNumber": 9,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "169d7034",
+                    "to": "169d7034",
+                    "version": "1.0.0.5150716708",
+                    "latestCommitId": "f68480cf",
+                    "commits": []
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "f3497e0c",
+                    "to": "f3497e0c",
+                    "version": "1.0.1.26",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "6ebb07ca",
+                    "to": "6ebb07ca",
+                    "version": "1.1.0.6",
+                    "latestCommitId": "f68480cf",
+                    "commits": []
+                }
+            ],
+            "hashId": "04b1bd84eda0eb15c6e52cab4500043d5b613a7d",
+            "date": "Tue Jun 13 2023 01:50:27 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-13-06-5254943573"
+            ],
+            "buildNumber": 10,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "f3497e0c",
+                    "to": "0444128a",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                }
+            ],
+            "hashId": "300838e792f0e8bbf34450705d7a9baa64bb16b2",
+            "date": "Tue Jun 13 2023 11:52:51 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-13-06-5254943573"
+            ],
+            "buildNumber": 11,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "169d7034",
+                    "to": "169d7034",
+                    "version": "1.0.0.5150716708",
+                    "latestCommitId": "f68480cf",
+                    "commits": []
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "0444128a",
+                    "to": "0444128a",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "6ebb07ca",
+                    "to": "6ebb07ca",
+                    "version": "1.1.0.6",
+                    "latestCommitId": "f68480cf",
+                    "commits": []
+                }
+            ],
+            "hashId": "57b8108ce4ffd8b7efaf67b0059375cc20f30c99",
+            "date": "Tue Jun 13 2023 11:59:32 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-20-06-5318965108"
+            ],
+            "buildNumber": 12,
+            "workItems": {
+                "ODD-1591": [
+                    "d5535d58"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "169d7034",
+                    "to": "d5535d58",
+                    "version": "1.0.0.5318965108",
+                    "latestCommitId": "d5535d58",
+                    "commits": [
+                        {
+                            "commitId": "d5535d58",
+                            "date": "2023-06-20T13:43:39+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1591 Distribution Process changes (#137)",
+                            "body": "* initial commit of distribution process components\r\n\r\n* moved other components to src-ui\r\n\r\n* moved record types to src-ui\r\n\r\n* removed skipDeploy\r\n\r\n* removed sales-channels in Staging/Prod deployment\r\n\r\n* moved business processes to src-ui\r\n\r\n* moved record types and business process\r\n\r\n* skip deploy to uat\r\n\r\n* moved to sales-channels\r\n\r\n* moved contentassets to sales-channels\r\n\r\n* updated permission set\r\n\r\n* moved components\r\n\r\n* added field descriptions\r\n\r\n* moved back to unlocked package\r\n\r\n* added sales-ui in sales-channels\r\n\r\n* moved flexipages to sales-ui\r\n\r\n* sales-ui changes\r\n\r\n* updated sales-ui path\r\n\r\n* flexipages\r\n\r\n* sales-channels updates\r\n\r\n* updated the pipeline\r\n\r\n* validation fixes\r\n\r\n* added email templates\r\n\r\n* fix\r\n\r\n* fixes\r\n\r\n* added flexipages\r\n\r\n* created new folder Distribution for email template\r\n\r\n* added Distribution folder"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "5d6c0718995b3fca4f166a2dff6246d8c6acd050",
+            "date": "Tue Jun 20 2023 06:36:07 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.24-20-06-5319219760"
+            ],
+            "buildNumber": 13,
+            "workItems": {
+                "ODD-1591": [
+                    "d5535d58"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "d5535d58",
+                    "to": "049f2718",
+                    "version": "1.0.0.5319219760",
+                    "latestCommitId": "d5535d58",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "6ebb07ca",
+                    "to": "049f2718",
+                    "version": "1.1.0.11",
+                    "latestCommitId": "d5535d58",
+                    "commits": [
+                        {
+                            "commitId": "d5535d58",
+                            "date": "2023-06-20T13:43:39+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1591 Distribution Process changes (#137)",
+                            "body": "* initial commit of distribution process components\r\n\r\n* moved other components to src-ui\r\n\r\n* moved record types to src-ui\r\n\r\n* removed skipDeploy\r\n\r\n* removed sales-channels in Staging/Prod deployment\r\n\r\n* moved business processes to src-ui\r\n\r\n* moved record types and business process\r\n\r\n* skip deploy to uat\r\n\r\n* moved to sales-channels\r\n\r\n* moved contentassets to sales-channels\r\n\r\n* updated permission set\r\n\r\n* moved components\r\n\r\n* added field descriptions\r\n\r\n* moved back to unlocked package\r\n\r\n* added sales-ui in sales-channels\r\n\r\n* moved flexipages to sales-ui\r\n\r\n* sales-ui changes\r\n\r\n* updated sales-ui path\r\n\r\n* flexipages\r\n\r\n* sales-channels updates\r\n\r\n* updated the pipeline\r\n\r\n* validation fixes\r\n\r\n* added email templates\r\n\r\n* fix\r\n\r\n* fixes\r\n\r\n* added flexipages\r\n\r\n* created new folder Distribution for email template\r\n\r\n* added Distribution folder"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "to": "049f2718",
+                    "version": "1.0.0.5319219760",
+                    "latestCommitId": "d5535d58",
+                    "commits": [
+                        {
+                            "commitId": "d5535d58",
+                            "date": "2023-06-20T13:43:39+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1591 Distribution Process changes (#137)",
+                            "body": "* initial commit of distribution process components\r\n\r\n* moved other components to src-ui\r\n\r\n* moved record types to src-ui\r\n\r\n* removed skipDeploy\r\n\r\n* removed sales-channels in Staging/Prod deployment\r\n\r\n* moved business processes to src-ui\r\n\r\n* moved record types and business process\r\n\r\n* skip deploy to uat\r\n\r\n* moved to sales-channels\r\n\r\n* moved contentassets to sales-channels\r\n\r\n* updated permission set\r\n\r\n* moved components\r\n\r\n* added field descriptions\r\n\r\n* moved back to unlocked package\r\n\r\n* added sales-ui in sales-channels\r\n\r\n* moved flexipages to sales-ui\r\n\r\n* sales-ui changes\r\n\r\n* updated sales-ui path\r\n\r\n* flexipages\r\n\r\n* sales-channels updates\r\n\r\n* updated the pipeline\r\n\r\n* validation fixes\r\n\r\n* added email templates\r\n\r\n* fix\r\n\r\n* fixes\r\n\r\n* added flexipages\r\n\r\n* created new folder Distribution for email template\r\n\r\n* added Distribution folder"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "63ce61f2327eff8f43b66942d4059919ce7d5935",
+            "date": "Tue Jun 20 2023 22:56:29 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-21-06-5329959232"
+            ],
+            "buildNumber": 14,
+            "workItems": {
+                "ODD-1592": [
+                    "b6b36e00"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "049f2718",
+                    "to": "b6b36e00",
+                    "version": "1.1.0.12",
+                    "latestCommitId": "b6b36e00",
+                    "commits": [
+                        {
+                            "commitId": "b6b36e00",
+                            "date": "2023-06-21T12:02:53+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1592 - lead mapping (#145)",
+                            "body": "* Added the initial lead mapping\r\n\r\n* added pardot settings\r\n\r\n* removed common/settings\r\n\r\n* removed all except pardot and updated workflow\r\n\r\n* updated lead mapping\r\n\r\n* added lead config and updated flexipages\r\n\r\n* workflow"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "049f2718",
+                    "to": "b6b36e00",
+                    "version": "1.0.0.5329959232",
+                    "latestCommitId": "b6b36e00",
+                    "commits": [
+                        {
+                            "commitId": "b6b36e00",
+                            "date": "2023-06-21T12:02:53+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1592 - lead mapping (#145)",
+                            "body": "* Added the initial lead mapping\r\n\r\n* added pardot settings\r\n\r\n* removed common/settings\r\n\r\n* removed all except pardot and updated workflow\r\n\r\n* updated lead mapping\r\n\r\n* added lead config and updated flexipages\r\n\r\n* workflow"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "156947d8142ab9410b69a55b9fea9885b3baa4d3",
+            "date": "Wed Jun 21 2023 04:17:47 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-22-06-5340228778"
+            ],
+            "buildNumber": 15,
+            "workItems": {
+                "ODD-1593": [
+                    "997691ee"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "b6b36e00",
+                    "to": "997691ee",
+                    "version": "1.1.0.13",
+                    "latestCommitId": "997691ee",
+                    "commits": [
+                        {
+                            "commitId": "997691ee",
+                            "date": "2023-06-22T08:23:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1593 approval processes and app assignment (#146)",
+                            "body": "* approval process and app assignment\r\n\r\n* updated the filter logic\r\n\r\n* approval process and app assignment\r\n\r\n* updated the filter logic\r\n\r\n* moved lending bdm to sales-ui"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "b6b36e00",
+                    "to": "997691ee",
+                    "version": "1.0.0.5340228778",
+                    "latestCommitId": "997691ee",
+                    "commits": [
+                        {
+                            "commitId": "997691ee",
+                            "date": "2023-06-22T08:23:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1593 approval processes and app assignment (#146)",
+                            "body": "* approval process and app assignment\r\n\r\n* updated the filter logic\r\n\r\n* approval process and app assignment\r\n\r\n* updated the filter logic\r\n\r\n* moved lending bdm to sales-ui"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "850d2c7575a0e75c565061c60fa806c7ab904d6e",
+            "date": "Thu Jun 22 2023 00:42:45 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-22-06-5342849433"
+            ],
+            "buildNumber": 16,
+            "workItems": {
+                "ODD-1609": [
+                    "455e0cac"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "997691ee",
+                    "to": "455e0cac",
+                    "version": "1.1.0.14",
+                    "latestCommitId": "455e0cac",
+                    "commits": [
+                        {
+                            "commitId": "455e0cac",
+                            "date": "2023-06-22T15:34:13+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1609 - updated the approvers (#149)",
+                            "body": "* updated the approvers\r\n\r\n* updated the initial approver and added runbook"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "c0168623707a3ecd2b5a7180ff0bfc36f351534e",
+            "date": "Thu Jun 22 2023 07:47:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-23-06-5352496127"
+            ],
+            "buildNumber": 17,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "455e0cac",
+                    "to": "17a43b55",
+                    "version": "1.1.0.15",
+                    "latestCommitId": "17a43b55",
+                    "commits": [
+                        {
+                            "commitId": "17a43b55",
+                            "date": "2023-06-23T11:19:32+08:00",
+                            "author": "Roy Ventura",
+                            "message": "set active to true (#154)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "5625c545dfd94bcead01f08769fecd9b8bc06d2b",
+            "date": "Fri Jun 23 2023 03:32:09 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-25-06-5353695408"
+            ],
+            "buildNumber": 18,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "17a43b55",
+                    "to": "e1130a26",
+                    "version": "1.1.0.16",
+                    "latestCommitId": "e1130a26",
+                    "commits": [
+                        {
+                            "commitId": "e1130a26",
+                            "date": "2023-06-23T14:55:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: updated sales-channels and sales pipeline (#155)",
+                            "body": "* updated sales-channels and sales pipeline\r\n\r\n* deleted sales dfn and updated build pipeline\r\n\r\n* added appVisibility in the permission set"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "997691ee",
+                    "to": "e1130a26",
+                    "version": "1.0.0.5353695408",
+                    "latestCommitId": "e1130a26",
+                    "commits": [
+                        {
+                            "commitId": "e1130a26",
+                            "date": "2023-06-23T14:55:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: updated sales-channels and sales pipeline (#155)",
+                            "body": "* updated sales-channels and sales pipeline\r\n\r\n* deleted sales dfn and updated build pipeline\r\n\r\n* added appVisibility in the permission set"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "b825e245259936317235427587b4783e1a9c96db",
+            "date": "Sun Jun 25 2023 05:14:01 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-26-06-5374381840"
+            ],
+            "buildNumber": 19,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "e1130a26",
+                    "to": "e2f58db8",
+                    "version": "1.0.0.5374381840",
+                    "latestCommitId": "e2f58db8",
+                    "commits": [
+                        {
+                            "commitId": "e2f58db8",
+                            "date": "2023-06-26T14:04:15+08:00",
+                            "author": "Roy Ventura",
+                            "message": "added missing logo (#160)",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "3242539b",
+                            "date": "2023-06-26T11:44:20+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: update sales channels and sales pipelines (#158)",
+                            "body": "* deleted temporary app\r\n\r\n* renamed lending app\r\n\r\n* removed new lightning pages"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "515ba2d552d5b7c4d21fc6dccce6cab9bffea4cd",
+            "date": "Mon Jun 26 2023 06:12:56 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-27-06-5385781618"
+            ],
+            "buildNumber": 20,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "e1130a26",
+                    "to": "556b25b5",
+                    "version": "1.2.0.1",
+                    "latestCommitId": "e1130a26",
+                    "commits": []
+                }
+            ],
+            "hashId": "08ee410250cba67e17088326026f87ba14f194ac",
+            "date": "Tue Jun 27 2023 04:42:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-27-06-5385883655"
+            ],
+            "buildNumber": 21,
+            "workItems": {
+                "ODD-1592": [
+                    "b6b36e00"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "049f2718",
+                    "to": "abb6f388",
+                    "version": "1.0.0.5385883655",
+                    "latestCommitId": "b6b36e00",
+                    "commits": [
+                        {
+                            "commitId": "b6b36e00",
+                            "date": "2023-06-21T12:02:53+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1592 - lead mapping (#145)",
+                            "body": "* Added the initial lead mapping\r\n\r\n* added pardot settings\r\n\r\n* removed common/settings\r\n\r\n* removed all except pardot and updated workflow\r\n\r\n* updated lead mapping\r\n\r\n* added lead config and updated flexipages\r\n\r\n* workflow"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "97d765d1fe521f0a7c99f560562c61722de6978e",
+            "date": "Tue Jun 27 2023 04:56:12 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-27-06-5385883655"
+            ],
+            "buildNumber": 22,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "abb6f388",
+                    "to": "abb6f388",
+                    "version": "1.0.0.5385883655",
+                    "latestCommitId": "b6b36e00",
+                    "commits": []
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "0444128a",
+                    "to": "0444128a",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "556b25b5",
+                    "to": "556b25b5",
+                    "version": "1.2.0.1",
+                    "latestCommitId": "e1130a26",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "e2f58db8",
+                    "to": "e2f58db8",
+                    "version": "1.0.0.5374381840",
+                    "latestCommitId": "e2f58db8",
+                    "commits": []
+                }
+            ],
+            "hashId": "f76642c64e3f61854f1fbc1e4c084897ea4fac38",
+            "date": "Tue Jun 27 2023 05:05:08 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-27-06-5387461857"
+            ],
+            "buildNumber": 23,
+            "workItems": {
+                "ODD-1671": [
+                    "f53db9af"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "abb6f388",
+                    "to": "f53db9af",
+                    "version": "1.0.0.5387461857",
+                    "latestCommitId": "f53db9af",
+                    "commits": [
+                        {
+                            "commitId": "f53db9af",
+                            "date": "2023-06-27T16:20:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1671 - Distribution Account and Contact changes (#167)",
+                            "body": "* Distribution Account and Contact changes\r\n\r\n* removed account type\r\n\r\n* added distribution broker\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "556b25b5",
+                    "to": "f53db9af",
+                    "version": "1.2.0.2",
+                    "latestCommitId": "f53db9af",
+                    "commits": [
+                        {
+                            "commitId": "f53db9af",
+                            "date": "2023-06-27T16:20:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1671 - Distribution Account and Contact changes (#167)",
+                            "body": "* Distribution Account and Contact changes\r\n\r\n* removed account type\r\n\r\n* added distribution broker\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "e2f58db8",
+                    "to": "f53db9af",
+                    "version": "1.0.0.5387461857",
+                    "latestCommitId": "f53db9af",
+                    "commits": [
+                        {
+                            "commitId": "f53db9af",
+                            "date": "2023-06-27T16:20:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1671 - Distribution Account and Contact changes (#167)",
+                            "body": "* Distribution Account and Contact changes\r\n\r\n* removed account type\r\n\r\n* added distribution broker\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "f1682fe42792e3cb03298265eb25c8827c24c778",
+            "date": "Tue Jun 27 2023 08:34:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-29-06-5407070513"
+            ],
+            "buildNumber": 24,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "f53db9af",
+                    "to": "2f3806a8",
+                    "version": "1.3.0.1",
+                    "latestCommitId": "f53db9af",
+                    "commits": []
+                }
+            ],
+            "hashId": "ca79cbcae5ce641554e642b3b834e02c8582582b",
+            "date": "Thu Jun 29 2023 00:28:34 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-29-06-5409585923"
+            ],
+            "buildNumber": 25,
+            "workItems": {
+                "ODD-1671": [
+                    "4d529597"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "f53db9af",
+                    "to": "4d529597",
+                    "version": "1.0.0.5409585923",
+                    "latestCommitId": "4d529597",
+                    "commits": [
+                        {
+                            "commitId": "4d529597",
+                            "date": "2023-06-29T15:25:52+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1671 fixes/changes (#173)",
+                            "body": "* fixes\r\n\r\n* updated the conditions and record type references\r\n\r\n* added campaign related tab and fixed direct rt\r\n\r\n* disable update path\r\n\r\n* Added Converted stage in Lead\r\n\r\n* added engagement\r\n\r\n* added new paths for Lead/Opportunity"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "2f3806a8",
+                    "to": "4d529597",
+                    "version": "1.3.0.2",
+                    "latestCommitId": "4d529597",
+                    "commits": [
+                        {
+                            "commitId": "4d529597",
+                            "date": "2023-06-29T15:25:52+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1671 fixes/changes (#173)",
+                            "body": "* fixes\r\n\r\n* updated the conditions and record type references\r\n\r\n* added campaign related tab and fixed direct rt\r\n\r\n* disable update path\r\n\r\n* Added Converted stage in Lead\r\n\r\n* added engagement\r\n\r\n* added new paths for Lead/Opportunity"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "f53db9af",
+                    "to": "4d529597",
+                    "version": "1.0.0.5409585923",
+                    "latestCommitId": "4d529597",
+                    "commits": [
+                        {
+                            "commitId": "4d529597",
+                            "date": "2023-06-29T15:25:52+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1671 fixes/changes (#173)",
+                            "body": "* fixes\r\n\r\n* updated the conditions and record type references\r\n\r\n* added campaign related tab and fixed direct rt\r\n\r\n* disable update path\r\n\r\n* Added Converted stage in Lead\r\n\r\n* added engagement\r\n\r\n* added new paths for Lead/Opportunity"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "55a12b2bd59dcca588b424fbfcea0a7f68a77deb",
+            "date": "Thu Jun 29 2023 07:43:26 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-30-06-5418221727"
+            ],
+            "buildNumber": 26,
+            "workItems": {
+                "OIBCR-2814": [
+                    "f6ac4105"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "4d529597",
+                    "to": "f6ac4105",
+                    "version": "1.0.0.5418221727",
+                    "latestCommitId": "4d529597",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "4d529597",
+                    "to": "f6ac4105",
+                    "version": "1.0.0.5418221727",
+                    "latestCommitId": "f6ac4105",
+                    "commits": [
+                        {
+                            "commitId": "f6ac4105",
+                            "date": "2023-06-30T09:09:18+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-2814 fixed flexipages (#174)",
+                            "body": "* fixed flexipages\r\n\r\n* added alwaysDeploy to true\r\n\r\n* added alwaysDeploy to true"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "7eb8dbc4e63b32df461cb8da70b5a4ba6a8d7fa5",
+            "date": "Fri Jun 30 2023 01:18:33 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-30-06-5418221727"
+            ],
+            "buildNumber": 27,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "f6ac4105",
+                    "to": "f6ac4105",
+                    "version": "1.0.0.5418221727",
+                    "latestCommitId": "4d529597",
+                    "commits": []
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "0444128a",
+                    "to": "0444128a",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "4d529597",
+                    "to": "4d529597",
+                    "version": "1.3.0.2",
+                    "latestCommitId": "4d529597",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "f6ac4105",
+                    "to": "f6ac4105",
+                    "version": "1.0.0.5418221727",
+                    "latestCommitId": "f6ac4105",
+                    "commits": []
+                }
+            ],
+            "hashId": "6cd403f487a7453d105df3fe806c31704a0d5b8a",
+            "date": "Fri Jun 30 2023 01:32:29 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-30-06-5419151537"
+            ],
+            "buildNumber": 28,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "4d529597",
+                    "to": "6d64efbc",
+                    "version": "1.3.0.3",
+                    "latestCommitId": "6d64efbc",
+                    "commits": [
+                        {
+                            "commitId": "6d64efbc",
+                            "date": "2023-06-30T12:02:07+08:00",
+                            "author": "Roy Ventura",
+                            "message": "Distribution Contact and Account requested changes (#175)",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "f6ac4105",
+                    "to": "6d64efbc",
+                    "version": "1.0.0.5419151537",
+                    "latestCommitId": "6d64efbc",
+                    "commits": [
+                        {
+                            "commitId": "6d64efbc",
+                            "date": "2023-06-30T12:02:07+08:00",
+                            "author": "Roy Ventura",
+                            "message": "Distribution Contact and Account requested changes (#175)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "622827f3e990ff621aa0bf84d698689db878adbb",
+            "date": "Fri Jun 30 2023 04:19:27 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-03-07-5442409584"
+            ],
+            "buildNumber": 29,
+            "workItems": {
+                "OIBCR-2184": [
+                    "7524bfc4"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "f6ac4105",
+                    "to": "7524bfc4",
+                    "version": "1.0.0.5442409584",
+                    "latestCommitId": "7524bfc4",
+                    "commits": [
+                        {
+                            "commitId": "7524bfc4",
+                            "date": "2023-07-03T16:41:02+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-2184 additional changes (#181)",
+                            "body": "* additional changes\r\n\r\n* added checks in flow and new field\r\n\r\n* added permission set\r\n\r\n* new field Trading Name"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "6d64efbc",
+                    "to": "7524bfc4",
+                    "version": "1.3.0.4",
+                    "latestCommitId": "7524bfc4",
+                    "commits": [
+                        {
+                            "commitId": "7524bfc4",
+                            "date": "2023-07-03T16:41:02+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-2184 additional changes (#181)",
+                            "body": "* additional changes\r\n\r\n* added checks in flow and new field\r\n\r\n* added permission set\r\n\r\n* new field Trading Name"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "6d64efbc",
+                    "to": "7524bfc4",
+                    "version": "1.0.0.5442409584",
+                    "latestCommitId": "7524bfc4",
+                    "commits": [
+                        {
+                            "commitId": "7524bfc4",
+                            "date": "2023-07-03T16:41:02+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-2184 additional changes (#181)",
+                            "body": "* additional changes\r\n\r\n* added checks in flow and new field\r\n\r\n* added permission set\r\n\r\n* new field Trading Name"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "e50c4da10ae2d8863afa716f4dd2013be7d5939c",
+            "date": "Mon Jul 03 2023 08:55:57 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-23.25-03-07-5442409584"
+            ],
+            "buildNumber": 30,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "7524bfc4",
+                    "to": "7524bfc4",
+                    "version": "1.0.0.5442409584",
+                    "latestCommitId": "7524bfc4",
+                    "commits": []
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "0444128a",
+                    "to": "0444128a",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "7524bfc4",
+                    "to": "7524bfc4",
+                    "version": "1.3.0.4",
+                    "latestCommitId": "7524bfc4",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "7524bfc4",
+                    "to": "7524bfc4",
+                    "version": "1.0.0.5442409584",
+                    "latestCommitId": "7524bfc4",
+                    "commits": []
+                }
+            ],
+            "hashId": "c58a059e3a25dfe79a3f72c7e4e71bc337201387",
+            "date": "Mon Jul 03 2023 09:23:09 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-11-07-5516065724"
+            ],
+            "buildNumber": 31,
+            "workItems": {
+                "ODD-1762": [
+                    "ec6fedd9"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "broker-survey-management",
+                    "to": "ec6fedd9",
+                    "version": "1.0.0.1",
+                    "latestCommitId": "ec6fedd9",
+                    "commits": [
+                        {
+                            "commitId": "ec6fedd9",
+                            "date": "2023-07-11T13:13:23+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1762 - Broker Survey (#208)",
+                            "body": "* Broker Feedback\r\n\r\n* created a package for broker survey\r\n\r\n* excluded broker-survey-management\r\n\r\n* added record type in the new package\r\n"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "b3357eb23e08c176ed5d7e03308caac050b1a3b2",
+            "date": "Tue Jul 11 2023 05:22:39 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-13-07-5537955393"
+            ],
+            "buildNumber": 32,
+            "workItems": {
+                "ODD-1748": [
+                    "e3bedc49"
+                ],
+                "ODD-1750": [
+                    "281a6893"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "common",
+                    "from": "7524bfc4",
+                    "to": "2012ffc6",
+                    "version": "1.0.1.5537955393",
+                    "latestCommitId": "e3bedc49",
+                    "commits": [
+                        {
+                            "commitId": "e3bedc49",
+                            "date": "2023-07-07T13:58:26+05:30",
+                            "author": "Atanu Das",
+                            "message": "Feat/ODD-1748:  All Settlement workflow task created and LoanTrack Link field created (#199)",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "281a6893",
+                            "date": "2023-07-07T12:31:26+05:30",
+                            "author": "Atanu Das",
+                            "message": "feat/ODD-1750: Task status created for settlement workflow (#194)",
+                            "body": "* feat/ODD-1750: Task status created for settlement workflow\r\n\r\n* Record type deleted\r\n\r\n* Record type added\r\n\r\n* Record type removed for now\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "7524bfc4",
+                    "to": "2012ffc6",
+                    "version": "1.4.0.1",
+                    "latestCommitId": "2012ffc6",
+                    "commits": [
+                        {
+                            "commitId": "2012ffc6",
+                            "date": "2023-07-13T09:05:15+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: additional changes for distribution (#215)",
+                            "body": "* additional changes for distribution\r\n\r\n* added policy expiry date\r\n\r\n* added runbooks for 24.1 phase2\r\n\r\n* incremented commons"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "7524bfc4",
+                    "to": "2012ffc6",
+                    "version": "1.0.0.5537955393",
+                    "latestCommitId": "2012ffc6",
+                    "commits": [
+                        {
+                            "commitId": "2012ffc6",
+                            "date": "2023-07-13T09:05:15+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: additional changes for distribution (#215)",
+                            "body": "* additional changes for distribution\r\n\r\n* added policy expiry date\r\n\r\n* added runbooks for 24.1 phase2\r\n\r\n* incremented commons"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "010b7305ed1bbfbaa324f80551bbabda441a728e",
+            "date": "Thu Jul 13 2023 01:20:44 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-13-07-5538929520"
+            ],
+            "buildNumber": 33,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "broker-survey-management",
+                    "from": "ec6fedd9",
+                    "to": "5cec1b38",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "5cec1b38",
+                    "commits": [
+                        {
+                            "commitId": "5cec1b38",
+                            "date": "2023-07-13T12:01:53+08:00",
+                            "author": "Roy Ventura",
+                            "message": "removed other statuses (#217)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "95da48d587bfe8f7965b576bb5cf6d0af2360187",
+            "date": "Thu Jul 13 2023 04:11:08 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.1-13-07-5538976509"
+            ],
+            "buildNumber": 34,
+            "workItems": {
+                "ODD-1797": [
+                    "7aa8474a"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "2012ffc6",
+                    "to": "7aa8474a",
+                    "version": "1.4.0.2",
+                    "latestCommitId": "7aa8474a",
+                    "commits": [
+                        {
+                            "commitId": "7aa8474a",
+                            "date": "2023-07-13T12:09:17+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat:ODD-1797 created new task record type (#216)",
+                            "body": "* created new task record type\r\n\r\n* removed other status\r\n\r\n* removed other statuses\r\n\r\n* moved to sales-ui"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "2012ffc6",
+                    "to": "7aa8474a",
+                    "version": "1.0.0.5538976509",
+                    "latestCommitId": "7aa8474a",
+                    "commits": [
+                        {
+                            "commitId": "7aa8474a",
+                            "date": "2023-07-13T12:09:17+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat:ODD-1797 created new task record type (#216)",
+                            "body": "* created new task record type\r\n\r\n* removed other status\r\n\r\n* removed other statuses\r\n\r\n* moved to sales-ui"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "332c8f36165c165c4c7bdeac70aea6ef042d9e59",
+            "date": "Thu Jul 13 2023 04:25:24 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-25-07-5651299245"
+            ],
+            "buildNumber": 35,
+            "workItems": {
+                "OIBCR-2919": [
+                    "cc4c8e46"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "to": "cc4c8e46",
+                    "version": "1.0.2.5651299245",
+                    "latestCommitId": "fe4081e5",
+                    "commits": [
+                        {
+                            "commitId": "fe4081e5",
+                            "date": "2023-07-20T12:52:25+10:00",
+                            "author": "Azlam",
+                            "message": "fix: ensure settings are reconciled (#240)",
+                            "body": "* fix: ensure settings are reconciled\r\n\r\n* added test classes\r\n\r\n* fix: delete incorrect file\r\n\r\n* fix: delete incorrect file\r\n\r\n* added missing test classes, added sendEmail\r\n\r\n\r\n---------\r\n\r\nCo-authored-by: buildbot <buildbot@orde.com.au>\r\nCo-authored-by: Roy <rventura@orde.com.au>"
+                        },
+                        {
+                            "commitId": "b0885b5c",
+                            "date": "2023-07-20T10:44:20+10:00",
+                            "author": "buildbot",
+                            "message": "fix(cicd): rework existing paths [ci skip]",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "7aa8474a",
+                    "to": "cc4c8e46",
+                    "version": "1.0.0.5651299245",
+                    "latestCommitId": "cc4c8e46",
+                    "commits": [
+                        {
+                            "commitId": "cc4c8e46",
+                            "date": "2023-07-25T08:42:35+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OIBCR-2919 - Distribution Dashboard (#268)",
+                            "body": "* new tab and flexipage for distribution dashboard\r\n\r\n* lending bdm app\r\n\r\n* incremented common-shared version\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "f585bc53512df0b3fb464e36786cae4b1c0e24d2",
+            "date": "Tue Jul 25 2023 01:51:48 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-25-07-5651299245"
+            ],
+            "buildNumber": 36,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "broker-survey-management",
+                    "from": "5cec1b38",
+                    "to": "5cec1b38",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "5cec1b38",
+                    "commits": []
+                },
+                {
+                    "name": "core-objects-duplicate-management",
+                    "to": "fe4081e5",
+                    "version": "1.0.0.5606356937",
+                    "latestCommitId": "b0885b5c",
+                    "commits": [
+                        {
+                            "commitId": "b0885b5c",
+                            "date": "2023-07-20T10:44:20+10:00",
+                            "author": "buildbot",
+                            "message": "fix(cicd): rework existing paths [ci skip]",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "customer-vulnerability-reporter",
+                    "from": "0444128a",
+                    "to": "0444128a",
+                    "version": "1.0.2.1",
+                    "latestCommitId": "f3497e0c",
+                    "commits": []
+                },
+                {
+                    "name": "orgshape",
+                    "from": "cc4c8e46",
+                    "to": "cc4c8e46",
+                    "version": "1.0.2.5651299245",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "7aa8474a",
+                    "to": "7aa8474a",
+                    "version": "1.4.0.2",
+                    "latestCommitId": "7aa8474a",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "cc4c8e46",
+                    "to": "cc4c8e46",
+                    "version": "1.0.0.5651299245",
+                    "latestCommitId": "cc4c8e46",
+                    "commits": []
+                }
+            ],
+            "hashId": "902adacf5886e2c8fbe975f5e179ff529ff1583b",
+            "date": "Tue Jul 25 2023 01:57:46 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-26-07-5664887735"
+            ],
+            "buildNumber": 37,
+            "workItems": {
+                "ODD-1898": [
+                    "fe48ffa4"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "cc4c8e46",
+                    "to": "fe48ffa4",
+                    "version": "1.0.0.5664887735",
+                    "latestCommitId": "fe48ffa4",
+                    "commits": [
+                        {
+                            "commitId": "fe48ffa4",
+                            "date": "2023-07-26T13:08:06+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1898: Removed required fields for Closed Lost Opps (#285)",
+                            "body": "This will allow Distribution users to close an opportunity as lost without having to fill out required fields.\r\n\r\nODD-1898"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "be0163a439a4ac727732c339e37b73ecce83e23b",
+            "date": "Wed Jul 26 2023 05:16:25 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-26-07-5664913128"
+            ],
+            "buildNumber": 38,
+            "workItems": {
+                "ODD-1902": [
+                    "d06a9d1a"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "cc4c8e46",
+                    "to": "d06a9d1a",
+                    "version": "1.0.3.5664913128",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "7aa8474a",
+                    "to": "d06a9d1a",
+                    "version": "1.5.0.1",
+                    "latestCommitId": "d06a9d1a",
+                    "commits": [
+                        {
+                            "commitId": "d06a9d1a",
+                            "date": "2023-07-26T13:11:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1902 Lead changes (#283)",
+                            "body": "Exposed the Broker Declarations sections when lead is created from the website to help the Distribution see the relevant information\r\nReconciled changes from Prod"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "fe48ffa4",
+                    "to": "d06a9d1a",
+                    "version": "1.0.1.5664913128",
+                    "latestCommitId": "d06a9d1a",
+                    "commits": [
+                        {
+                            "commitId": "d06a9d1a",
+                            "date": "2023-07-26T13:11:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1902 Lead changes (#283)",
+                            "body": "Exposed the Broker Declarations sections when lead is created from the website to help the Distribution see the relevant information\r\nReconciled changes from Prod"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "79684243c8db6607a54cb71b1a9698ade07bd53f",
+            "date": "Wed Jul 26 2023 05:25:10 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-26-07-5664919218"
+            ],
+            "buildNumber": 39,
+            "workItems": {
+                "ODD-1901": [
+                    "bfd4e90f"
+                ],
+                "OIBCR-2919": [
+                    "904281e5"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "d06a9d1a",
+                    "to": "bfd4e90f",
+                    "version": "1.0.3.5664919218",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "d06a9d1a",
+                    "to": "bfd4e90f",
+                    "version": "1.5.0.3",
+                    "latestCommitId": "bfd4e90f",
+                    "commits": [
+                        {
+                            "commitId": "bfd4e90f",
+                            "date": "2023-07-26T13:12:37+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1901 - Aggregator mapping (#286)",
+                            "body": "Aggregator mapping"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "d06a9d1a",
+                    "to": "bfd4e90f",
+                    "version": "1.0.1.5664919218",
+                    "latestCommitId": "904281e5",
+                    "commits": [
+                        {
+                            "commitId": "904281e5",
+                            "date": "2023-07-26T13:12:13+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OIBCR-2919 - flexipage changes (#282)",
+                            "body": "flexipage changes"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "fa4e56662b4cf0fd5953f968d29e3dd8d9a892e7",
+            "date": "Wed Jul 26 2023 05:32:49 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-26-07-5664916371"
+            ],
+            "buildNumber": 40,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "bfd4e90f",
+                    "to": "904281e5",
+                    "version": "1.0.3.5664916371",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "bfd4e90f",
+                    "to": "904281e5",
+                    "version": "1.5.0.2",
+                    "latestCommitId": "d06a9d1a",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "bfd4e90f",
+                    "to": "904281e5",
+                    "version": "1.0.1.5664916371",
+                    "latestCommitId": "904281e5",
+                    "commits": []
+                }
+            ],
+            "hashId": "6d75723894f86ac90700014dd238739fe467391f",
+            "date": "Wed Jul 26 2023 05:41:51 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-26-07-5664926700"
+            ],
+            "buildNumber": 41,
+            "workItems": {
+                "ODD-1901": [
+                    "bfd4e90f"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "904281e5",
+                    "to": "b2135bf7",
+                    "version": "1.0.3.5664926700",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "904281e5",
+                    "to": "b2135bf7",
+                    "version": "1.5.0.4",
+                    "latestCommitId": "b2135bf7",
+                    "commits": [
+                        {
+                            "commitId": "b2135bf7",
+                            "date": "2023-07-26T13:13:44+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OSD-260 - Added Product Type (#284)",
+                            "body": "* Added Product Type\r\n\r\n* fix: add 'OSD' to work item filter\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        },
+                        {
+                            "commitId": "bfd4e90f",
+                            "date": "2023-07-26T13:12:37+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1901 - Aggregator mapping (#286)",
+                            "body": "Aggregator mapping"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "904281e5",
+                    "to": "b2135bf7",
+                    "version": "1.0.1.5664926700",
+                    "latestCommitId": "b2135bf7",
+                    "commits": [
+                        {
+                            "commitId": "b2135bf7",
+                            "date": "2023-07-26T13:13:44+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: OSD-260 - Added Product Type (#284)",
+                            "body": "* Added Product Type\r\n\r\n* fix: add 'OSD' to work item filter\r\n\r\n---------\r\n\r\nCo-authored-by: Azlam <43767972+azlam-abdulsalam@users.noreply.github.com>"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "76440675c1ffe3f9957687610eaa775213700c99",
+            "date": "Wed Jul 26 2023 05:49:37 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-27-07-5675568430"
+            ],
+            "buildNumber": 42,
+            "workItems": {
+                "ODD-1904": [
+                    "20b1934b"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "b2135bf7",
+                    "to": "20b1934b",
+                    "version": "1.5.0.5",
+                    "latestCommitId": "20b1934b",
+                    "commits": [
+                        {
+                            "commitId": "20b1934b",
+                            "date": "2023-07-27T09:44:03+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1904 Address and ABN mapping to Account (#299)",
+                            "body": "Added Address and ABN mapping to Account"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "c8052af3006eef7ac2f8dab7e2be2d404fae4b3f",
+            "date": "Thu Jul 27 2023 01:56:45 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-27-07-5676283183"
+            ],
+            "buildNumber": 43,
+            "workItems": {
+                "ODD-1903": [
+                    "ee056fea"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "b2135bf7",
+                    "to": "ee056fea",
+                    "version": "1.0.4.5676283183",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "b2135bf7",
+                    "to": "ee056fea",
+                    "version": "1.0.1.5676283183",
+                    "latestCommitId": "ee056fea",
+                    "commits": [
+                        {
+                            "commitId": "ee056fea",
+                            "date": "2023-07-27T11:42:48+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1903 - Tasks on Account and Contact (#298)",
+                            "body": "* Added New Tasks to Account and Contact\r\n\r\n* Added Task to Main Business Contact flexipage\r\n\r\n* incremented the version"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "04ee13047ed823d435dc9c275a8ba5826315f8b7",
+            "date": "Thu Jul 27 2023 03:59:33 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-27-07-5676911670"
+            ],
+            "buildNumber": 44,
+            "workItems": {
+                "ODD-910": [
+                    "e3712ab0"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "ee056fea",
+                    "to": "e3712ab0",
+                    "version": "1.0.1.5676911670",
+                    "latestCommitId": "e3712ab0",
+                    "commits": [
+                        {
+                            "commitId": "e3712ab0",
+                            "date": "2023-07-27T13:31:20+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-910 - Added ABN (#302)",
+                            "body": "Added ABN"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "0e677c43a14cb80856a89b6a66a844f65fbf4f3c",
+            "date": "Thu Jul 27 2023 06:19:55 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.2-27-07-5679056159"
+            ],
+            "buildNumber": 45,
+            "workItems": {
+                "ODD-1898": [
+                    "67cf270c"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "e3712ab0",
+                    "to": "67cf270c",
+                    "version": "1.0.1.5679056159",
+                    "latestCommitId": "67cf270c",
+                    "commits": [
+                        {
+                            "commitId": "67cf270c",
+                            "date": "2023-07-27T17:48:18+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1898 - fixed filter condition (#304)",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "2a2d9d0f7502b07636b78734f576fbc153c21690",
+            "date": "Thu Jul 27 2023 09:56:42 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-02-08-5733276800"
+            ],
+            "buildNumber": 46,
+            "workItems": {
+                "OIBCR-3015": [
+                    "4f549299"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "ee056fea",
+                    "to": "4f549299",
+                    "version": "1.0.5.5733276800",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "67cf270c",
+                    "to": "4f549299",
+                    "version": "1.0.1.5733276800",
+                    "latestCommitId": "4f549299",
+                    "commits": [
+                        {
+                            "commitId": "4f549299",
+                            "date": "2023-08-02T08:33:34+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-3015 - fixed the new task in Account and Contact (#345)",
+                            "body": "* fixed the new task in Account and Contact\r\n\r\n* incremented orgShape"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "ffaa7f1cd3d6f6a103dda29ecef32265b952861a",
+            "date": "Wed Aug 02 2023 00:43:31 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-02-08-5733618281"
+            ],
+            "buildNumber": 47,
+            "workItems": {
+                "OIBCR-3015": [
+                    "9a7d736d"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "4f549299",
+                    "to": "9a7d736d",
+                    "version": "1.0.5.5733618281",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "20b1934b",
+                    "to": "9a7d736d",
+                    "version": "1.5.0.6",
+                    "latestCommitId": "9a7d736d",
+                    "commits": [
+                        {
+                            "commitId": "9a7d736d",
+                            "date": "2023-08-02T09:23:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-3015 - added buildCollection  (#347)",
+                            "body": "* fixed the new task in Account and Contact\r\n\r\n* incremented orgShape\r\n\r\n* added buildCollection\r\n\r\n* added buildCollection in sales-ui"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "4f549299",
+                    "to": "9a7d736d",
+                    "version": "1.0.1.5733618281",
+                    "latestCommitId": "9a7d736d",
+                    "commits": [
+                        {
+                            "commitId": "9a7d736d",
+                            "date": "2023-08-02T09:23:43+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: OIBCR-3015 - added buildCollection  (#347)",
+                            "body": "* fixed the new task in Account and Contact\r\n\r\n* incremented orgShape\r\n\r\n* added buildCollection\r\n\r\n* added buildCollection in sales-ui"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "51b9a1677d92775d57f2e12febc30e0ded0615b3",
+            "date": "Wed Aug 02 2023 01:44:07 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-02-08-5737008635"
+            ],
+            "buildNumber": 48,
+            "workItems": {
+                "ODD-1806": [
+                    "a86d2901"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "9a7d736d",
+                    "to": "a86d2901",
+                    "version": "1.0.5.5737008635",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "9a7d736d",
+                    "to": "a86d2901",
+                    "version": "1.5.0.7",
+                    "latestCommitId": "9a7d736d",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "9a7d736d",
+                    "to": "a86d2901",
+                    "version": "1.0.1.5737008635",
+                    "latestCommitId": "a86d2901",
+                    "commits": [
+                        {
+                            "commitId": "a86d2901",
+                            "date": "2023-08-02T17:16:39+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1806 - removed tab (#355)",
+                            "body": "removed tab"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "44f2f9d0b0f51487a2e9a992a3071a6bad66283a",
+            "date": "Wed Aug 02 2023 09:31:56 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-02-08-5737393783"
+            ],
+            "buildNumber": 49,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "a86d2901",
+                    "to": "997bb175",
+                    "version": "1.0.5.5737393783",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "a86d2901",
+                    "to": "997bb175",
+                    "version": "1.6.0.1",
+                    "latestCommitId": "9a7d736d",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "a86d2901",
+                    "to": "997bb175",
+                    "version": "1.2.0.5737393783",
+                    "latestCommitId": "a86d2901",
+                    "commits": []
+                }
+            ],
+            "hashId": "36a44ecd9df6514ad3122f86fc8a25f8d22bfd12",
+            "date": "Wed Aug 02 2023 10:18:14 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-08-08-5791723683"
+            ],
+            "buildNumber": 50,
+            "workItems": {
+                "ODD-1936": [
+                    "cfa92b08"
+                ],
+                "ODD-1795": [
+                    "ae4fe76f"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-channels",
+                    "from": "997bb175",
+                    "to": "cfa92b08",
+                    "version": "1.7.0.1",
+                    "latestCommitId": "cfa92b08",
+                    "commits": [
+                        {
+                            "commitId": "cfa92b08",
+                            "date": "2023-08-08T09:36:55+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1936 - lead auto conversion (#375)",
+                            "body": "* lead auto conversion\r\n\r\n* updated the apex classes\r\n\r\n* updated test class\r\n\r\n* updated the validation rules\r\n\r\n* added flow\r\n\r\n* updated flow\r\n\r\n* updated the test class\r\n\r\n* added string helper\r\n\r\n* added utilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "utilities",
+                    "to": "cfa92b08",
+                    "version": "1.0.0.5791723683",
+                    "latestCommitId": "cfa92b08",
+                    "commits": [
+                        {
+                            "commitId": "cfa92b08",
+                            "date": "2023-08-08T09:36:55+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat: ODD-1936 - lead auto conversion (#375)",
+                            "body": "* lead auto conversion\r\n\r\n* updated the apex classes\r\n\r\n* updated test class\r\n\r\n* updated the validation rules\r\n\r\n* added flow\r\n\r\n* updated flow\r\n\r\n* updated the test class\r\n\r\n* added string helper\r\n\r\n* added utilities"
+                        },
+                        {
+                            "commitId": "ae4fe76f",
+                            "date": "2023-08-01T11:29:33+08:00",
+                            "author": "Roy Ventura",
+                            "message": "fix: ODD-1795 - formatted currency changes (#326)",
+                            "body": "* formatted currency changes\r\n\r\n* changed testMethod to isTest\r\n\r\n* refactored the changes and updated the test class\r\n\r\n* created utilities as shared source package"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "4a965769ef58bbb5577c7db3840e6021e9f10913",
+            "date": "Tue Aug 08 2023 01:51:09 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-10-08-5815688710"
+            ],
+            "buildNumber": 51,
+            "workItems": {
+                "ODD-1810": [
+                    "2132b81f"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "orgshape",
+                    "from": "997bb175",
+                    "to": "2132b81f",
+                    "version": "1.0.5.5815688710",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "cfa92b08",
+                    "to": "2132b81f",
+                    "version": "1.8.0.1",
+                    "latestCommitId": "2132b81f",
+                    "commits": [
+                        {
+                            "commitId": "2132b81f",
+                            "date": "2023-08-10T09:01:38+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat:ODD-1810 - updated page layouts to remove quick actions of lead's old record types (#407)",
+                            "body": "removed the quick actions"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "997bb175",
+                    "to": "2132b81f",
+                    "version": "1.3.0.5815688710",
+                    "latestCommitId": "2132b81f",
+                    "commits": [
+                        {
+                            "commitId": "2132b81f",
+                            "date": "2023-08-10T09:01:38+08:00",
+                            "author": "Roy Ventura",
+                            "message": "feat:ODD-1810 - updated page layouts to remove quick actions of lead's old record types (#407)",
+                            "body": "removed the quick actions"
+                        }
+                    ]
+                }
+            ],
+            "hashId": "7da9b5daa5fa9b637d88ef5d28d864640d247c44",
+            "date": "Thu Aug 10 2023 01:25:45 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-10-08-5815688710"
+            ],
+            "buildNumber": 52,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "utilities",
+                    "from": "cfa92b08",
+                    "to": "cfa92b08",
+                    "version": "1.0.0.5791723682",
+                    "latestCommitId": "cfa92b08",
+                    "commits": []
+                },
+                {
+                    "name": "sales-ui",
+                    "from": "2132b81f",
+                    "to": "2132b81f",
+                    "version": "1.3.0.5815688710",
+                    "latestCommitId": "2132b81f",
+                    "commits": []
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "2132b81f",
+                    "to": "2132b81f",
+                    "version": "1.8.0.1",
+                    "latestCommitId": "2132b81f",
+                    "commits": []
+                },
+                {
+                    "name": "orgshape",
+                    "from": "2132b81f",
+                    "to": "2132b81f",
+                    "version": "1.0.5.5815688710",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                },
+                {
+                    "name": "core-objects-duplicate-management",
+                    "from": "fe4081e5",
+                    "to": "fe4081e5",
+                    "version": "1.0.0.5606356937",
+                    "latestCommitId": "b0885b5c",
+                    "commits": []
+                },
+                {
+                    "name": "broker-survey-management",
+                    "from": "5cec1b38",
+                    "to": "5cec1b38",
+                    "version": "1.0.0.2",
+                    "latestCommitId": "5cec1b38",
+                    "commits": []
+                }
+            ],
+            "hashId": "3456fe0aa61465f98675bfc3c82b58f815b2bd1e",
+            "date": "Mon Aug 14 2023 05:10:34 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-22-08-5932993655"
+            ],
+            "buildNumber": 53,
+            "workItems": {
+                "ODD-2032": [
+                    "b4da142d"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "2132b81f",
+                    "to": "84436093",
+                    "version": "1.4.0.5932993655",
+                    "latestCommitId": "84436093",
+                    "commits": [
+                        {
+                            "commitId": "84436093",
+                            "date": "2023-08-22T08:40:30+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "added distribution task layouts (#479)",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "b4da142d",
+                            "date": "2023-08-18T12:26:00+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-2032 - Added review account task creation (#463)",
+                            "body": "* Added review account task creation\r\n\r\n* updated flow\r\n\r\n* removed changes in unpackaged"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "2132b81f",
+                    "to": "84436093",
+                    "version": "1.9.0.4",
+                    "latestCommitId": "b4da142d",
+                    "commits": [
+                        {
+                            "commitId": "b4da142d",
+                            "date": "2023-08-18T12:26:00+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-2032 - Added review account task creation (#463)",
+                            "body": "* Added review account task creation\r\n\r\n* updated flow\r\n\r\n* removed changes in unpackaged"
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "2132b81f",
+                    "to": "84436093",
+                    "version": "1.0.5.5932993655",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                }
+            ],
+            "hashId": "31f028f6321d6fb6a6802c37a5423b42dfd09b81",
+            "date": "Tue Aug 22 2023 00:55:29 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-24-08-5958541952"
+            ],
+            "buildNumber": 54,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "84436093",
+                    "to": "6ba7a4ce",
+                    "version": "1.5.0.5958541952",
+                    "latestCommitId": "6ba7a4ce",
+                    "commits": [
+                        {
+                            "commitId": "6ba7a4ce",
+                            "date": "2023-08-24T09:55:21+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "set Accreditation Pending as the default status (#493)",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "84436093",
+                    "to": "6ba7a4ce",
+                    "version": "1.10.0.1",
+                    "latestCommitId": "6ba7a4ce",
+                    "commits": [
+                        {
+                            "commitId": "6ba7a4ce",
+                            "date": "2023-08-24T09:55:21+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "set Accreditation Pending as the default status (#493)",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "84436093",
+                    "to": "6ba7a4ce",
+                    "version": "1.0.5.5958541952",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                }
+            ],
+            "hashId": "280c791ba723e8f47d01f2636e0e8f8239352e2a",
+            "date": "Thu Aug 24 2023 02:15:56 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.3-25-08-5971180499"
+            ],
+            "buildNumber": 55,
+            "workItems": {
+                "ODD-1988": [
+                    "36ec2004"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "6ba7a4ce",
+                    "to": "8713b77e",
+                    "version": "1.5.0.5971180499",
+                    "latestCommitId": "8713b77e",
+                    "commits": [
+                        {
+                            "commitId": "8713b77e",
+                            "date": "2023-08-25T10:28:10+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "removed  flexipage (#502)",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "36ec2004",
+                            "date": "2023-08-25T08:47:50+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-1988 - Distribution base profile (#500)",
+                            "body": "* added back formally approved email alert\r\n\r\n* applications\r\n\r\n* added base profiles\r\n\r\n* added them to the correct path\r\n\r\n* reverted\r\n\r\n* moved the distribution profile to sales\r\n\r\n* added logo version\r\n\r\n* added bdm lending home page layout\r\n\r\n* added reports and dashboards\r\n\r\n* updated the bdm app\r\n\r\n* renamed the src access management\r\n\r\n* added version logo\r\n\r\n* removed digital in lending bdm\r\n\r\n* removed distribution\r\n\r\n* added groups for the dashboard folder access\r\n\r\n* changes for 1988\r\n\r\n* removed components"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-src-access-management",
+                    "to": "8713b77e",
+                    "version": "1.0.1.5971180499",
+                    "latestCommitId": "36ec2004",
+                    "commits": [
+                        {
+                            "commitId": "36ec2004",
+                            "date": "2023-08-25T08:47:50+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-1988 - Distribution base profile (#500)",
+                            "body": "* added back formally approved email alert\r\n\r\n* applications\r\n\r\n* added base profiles\r\n\r\n* added them to the correct path\r\n\r\n* reverted\r\n\r\n* moved the distribution profile to sales\r\n\r\n* added logo version\r\n\r\n* added bdm lending home page layout\r\n\r\n* added reports and dashboards\r\n\r\n* updated the bdm app\r\n\r\n* renamed the src access management\r\n\r\n* added version logo\r\n\r\n* removed digital in lending bdm\r\n\r\n* removed distribution\r\n\r\n* added groups for the dashboard folder access\r\n\r\n* changes for 1988\r\n\r\n* removed components"
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "6ba7a4ce",
+                    "to": "8713b77e",
+                    "version": "1.0.5.5971180499",
+                    "latestCommitId": "fe4081e5",
+                    "commits": []
+                }
+            ],
+            "hashId": "1d84c315ee52cf1326394c386df37abef4a1295d",
+            "date": "Fri Aug 25 2023 02:58:42 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-29-08-6012862143"
+            ],
+            "buildNumber": 56,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "8713b77e",
+                    "to": "2f9bc9c2",
+                    "version": "1.5.0.6012862143",
+                    "latestCommitId": "8713b77e",
+                    "commits": []
+                },
+                {
+                    "name": "orgshape",
+                    "from": "8713b77e",
+                    "to": "2f9bc9c2",
+                    "version": "1.0.5.6012862143",
+                    "latestCommitId": "e3b09844",
+                    "commits": [
+                        {
+                            "commitId": "e3b09844",
+                            "date": "2023-08-29T08:04:24+10:00",
+                            "author": "azlam-abdulsalam",
+                            "message": "fix(orgshape):  flow settings are no longer valid in staging",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "da45a96a88cddc6a61f5b09bc0b4b9c78c61e768",
+            "date": "Tue Aug 29 2023 13:39:23 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-29-08-6012988475"
+            ],
+            "buildNumber": 57,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "2f9bc9c2",
+                    "to": "60720059",
+                    "version": "1.5.0.6012988475",
+                    "latestCommitId": "8713b77e",
+                    "commits": []
+                },
+                {
+                    "name": "orgshape",
+                    "from": "2f9bc9c2",
+                    "to": "60720059",
+                    "version": "1.0.5.6012988475",
+                    "latestCommitId": "e3b09844",
+                    "commits": []
+                }
+            ],
+            "hashId": "313eefb0aa779b4d542f9c82781dba0879df3255",
+            "date": "Tue Aug 29 2023 13:43:58 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-31-08-6032952099"
+            ],
+            "buildNumber": 58,
+            "workItems": {
+                "ODD-2119": [
+                    "6463e76e",
+                    "69b7c9bb"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "60720059",
+                    "to": "51c367db",
+                    "version": "1.6.0.6032952099",
+                    "latestCommitId": "6463e76e",
+                    "commits": [
+                        {
+                            "commitId": "6463e76e",
+                            "date": "2023-08-31T09:13:02+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-2119 - Communication Preference (#555)",
+                            "body": "ODD-2119 - communication preference changes"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales-channels",
+                    "from": "6ba7a4ce",
+                    "to": "51c367db",
+                    "version": "1.11.0.17",
+                    "latestCommitId": "69b7c9bb",
+                    "commits": [
+                        {
+                            "commitId": "69b7c9bb",
+                            "date": "2023-08-31T11:25:53+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "fix: ODD-2119 - updated the api version (#557)",
+                            "body": "updated the api version"
+                        },
+                        {
+                            "commitId": "6463e76e",
+                            "date": "2023-08-31T09:13:02+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-2119 - Communication Preference (#555)",
+                            "body": "ODD-2119 - communication preference changes"
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "60720059",
+                    "to": "51c367db",
+                    "version": "1.0.5.6032952099",
+                    "latestCommitId": "e3b09844",
+                    "commits": []
+                }
+            ],
+            "hashId": "e5310dd9f4e8238c44b8c241d164d9b155104bcc",
+            "date": "Thu Aug 31 2023 04:29:33 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-31-08-6034556334"
+            ],
+            "buildNumber": 59,
+            "workItems": {
+                "ODD-2118": [
+                    "5916d356"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "51c367db",
+                    "to": "cc6fbad0",
+                    "version": "1.6.0.6034556334",
+                    "latestCommitId": "5916d356",
+                    "commits": [
+                        {
+                            "commitId": "5916d356",
+                            "date": "2023-08-31T14:24:10+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "ODD-2118 - added post-run book (#558)",
+                            "body": "* ODD-2118 - added post-run book\r\n\r\n* updated lending bdm"
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "51c367db",
+                    "to": "cc6fbad0",
+                    "version": "1.0.5.6034556334",
+                    "latestCommitId": "e3b09844",
+                    "commits": []
+                }
+            ],
+            "hashId": "cec837fb25395ade237affd118f82d9804e79717",
+            "date": "Thu Aug 31 2023 08:36:40 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-01-09-6044134258"
+            ],
+            "buildNumber": 60,
+            "workItems": {
+                "ODD-2118": [
+                    "f4c2de69"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "cc6fbad0",
+                    "to": "f4c2de69",
+                    "version": "1.6.0.6044134258",
+                    "latestCommitId": "f4c2de69",
+                    "commits": [
+                        {
+                            "commitId": "f4c2de69",
+                            "date": "2023-09-01T09:04:42+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "ODD-2118 - flexipage and recordtype update (#572)",
+                            "body": "Co-authored-by: Azlam Abdulsalam <azlam.abdulsalam@furo.io>"
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "cc6fbad0",
+                    "to": "f4c2de69",
+                    "version": "1.0.5.6044134258",
+                    "latestCommitId": "e3b09844",
+                    "commits": []
+                }
+            ],
+            "hashId": "9fef1e0e5f91ce2dea31b24b98170041606f11d5",
+            "date": "Fri Sep 01 2023 01:15:35 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "names": [
+                "Sprint-24.5-04-09-6068642364"
+            ],
+            "buildNumber": 61,
+            "workItems": {
+                "ODD-2118": [
+                    "8d54c2f9"
+                ]
+            },
+            "artifacts": [
+                {
+                    "name": "sales-ui",
+                    "from": "f4c2de69",
+                    "to": "8d54c2f9",
+                    "version": "1.6.0.6068642364",
+                    "latestCommitId": "8d54c2f9",
+                    "commits": [
+                        {
+                            "commitId": "8d54c2f9",
+                            "date": "2023-09-04T11:08:48+08:00",
+                            "author": "Rowel Ventura",
+                            "message": "feat: ODD-2118 - removed tab overrides (#582)",
+                            "body": "removed tab overrides"
+                        }
+                    ]
+                },
+                {
+                    "name": "orgshape",
+                    "from": "f4c2de69",
+                    "to": "8d54c2f9",
+                    "version": "1.0.5.6068642364",
+                    "latestCommitId": "e3b09844",
+                    "commits": []
+                }
+            ],
+            "hashId": "8045a35cce19969f65814f3f7d61915101ab4be1",
+            "date": "Mon Sep 04 2023 03:19:55 GMT+0000 (Coordinated Universal Time)"
+        }
+    ]
+}

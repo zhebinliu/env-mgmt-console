@@ -1,0 +1,42 @@
+releaseName: orde-cl
+domainNameUsedForPools: ORDE_CL
+excludeAllPackageDependencies: true 
+includeOnlyArtifacts:
+# orgshape and core-objects are shared so added here as well
+  - orgshape
+  - utilities
+  - core-objects-duplicate-management
+  - cl-approval-authority
+  - cl-collaterals
+  - cl-collection-configuration
+  - cl-dag
+  - cl-departments
+  - cl-integration-framework
+  - cl-origination-configuration
+  - cl-rendered-fields
+  - cl-rules
+  - cl-servicing-stage-1
+  - cl-servicing-stage-2
+  - conga-doc-config
+  - core-objects-duplicate-management
+  - env-specific-post
+  - orde-unpackaged
+  - application-permissions
+  - distribution-permissions
+  - finance-permissions
+  - application-assessment
+  - credit-ui
+  - src-broker-commission-approval-process
+  - src-access-management
+  - src-access-management-base
+  - src-access-management-portal
+  - src-ui
+  - shared-generic-utility-helper
+releasedefinitionProperties:
+  promotePackagesBeforeDeploymentToOrg: prod
+  skipIfAlreadyInstalled: true
+  changelog:
+    workItemFilters:
+      -  (ODD|OIBCR|OSD)-[0-9]{3,4}
+    workItemUrl: https://wingategroup.atlassian.net/browse
+    limit: 30

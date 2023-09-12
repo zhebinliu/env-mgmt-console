@@ -5,6 +5,7 @@ Vue.use(Router)
 
 /* Layout */
 import Layout from '@/layout'
+import orgRouter from './modules/org'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
@@ -50,7 +51,7 @@ export const constantRoutes = [
     children: [{
       path: 'dashboard',
       name: 'Dashboard',
-      component: () => import('@/views/dashboard/index'),
+      component: () => import('@/views/tab/index'),
       meta: { title: 'Dashboard', icon: 'dashboard' }
     }]
   },
@@ -76,7 +77,7 @@ export const constantRoutes = [
       }
     ]
   },
-
+  orgRouter,
   {
     path: '/form',
     component: Layout,

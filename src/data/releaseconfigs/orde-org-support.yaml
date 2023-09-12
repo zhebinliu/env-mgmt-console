@@ -1,0 +1,25 @@
+# release-config for org support packages such as gift-register, training-register, call-management, breach-register, aba-file-generator
+
+releaseName: orde-org-support
+domainNameUsedForPools: ORDE_ORG_SUPPORT
+excludeAllPackageDependencies: true 
+includeOnlyArtifacts:
+  - gift-register
+  - training-register
+  - clone-records
+  - call-management
+  - breach-register
+  - aba-file-generator
+  - batch-log-management
+  - sandbox-post-refresh-activities
+  - utilities
+  - license-tracker
+releasedefinitionProperties:
+  skipIfAlreadyInstalled: true
+  usePackageDiffDeploymentMode: true
+  promotePackagesBeforeDeploymentToOrg: prod
+  changelog:
+    workItemFilters:
+      -  (ODD|OIBCR|OSD)-[0-9]{3,4}
+    workItemUrl: https://wingategroup.atlassian.net/browse
+    limit: 30
